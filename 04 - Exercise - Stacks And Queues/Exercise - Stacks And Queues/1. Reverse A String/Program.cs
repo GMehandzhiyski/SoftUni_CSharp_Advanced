@@ -5,14 +5,14 @@
         static void Main(string[] args)
         {
             string inputString = Console.ReadLine();
-        
+
             Stack<char> stackString = new Stack<char>(inputString);
 
-            foreach (char c in stackString)
-            {
-                Console.Write(c);
-            }
-            Console.WriteLine();
+            //foreach (char c in stackString)
+            //{
+            //    Console.Write(c);
+            //}
+            //Console.WriteLine();
             while (stackString.Any())
             {
                 char reuslt = stackString.Pop();
