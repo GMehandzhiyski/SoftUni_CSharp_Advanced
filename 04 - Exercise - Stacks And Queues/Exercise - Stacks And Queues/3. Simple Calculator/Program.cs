@@ -12,6 +12,7 @@
             Stack<int> numberStack = new Stack<int>(inputNumber);
 
 
+
         }
     }
 }
