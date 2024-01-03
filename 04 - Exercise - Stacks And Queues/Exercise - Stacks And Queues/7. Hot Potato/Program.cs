@@ -19,8 +19,6 @@ namespace _7._Hot_Potato
             {
                 if (hotPottato == 1)
                 {
-                   playersQueue.Dequeue();
-
                     string removeHotPottato = playersQueue.Dequeue();
                     Console.WriteLine($"Removed {removeHotPottato}");
 
