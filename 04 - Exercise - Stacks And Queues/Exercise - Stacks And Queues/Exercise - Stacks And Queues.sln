@@ -7,19 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise - Stacks And Queue
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{8F3FD8B0-F71A-4245-B594-446642A8AA6E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Reverse A String", "1. Reverse A String\1. Reverse A String.csproj", "{D1EA0748-D2F0-4943-B7C2-F08CFC9C443D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse A String", "1. Reverse A String\01. Reverse A String.csproj", "{D1EA0748-D2F0-4943-B7C2-F08CFC9C443D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Stack Sum", "2.Stack Sum\2.Stack Sum.csproj", "{B14EA065-DC29-43D5-B1E8-78FB57580B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Stack Sum", "2.Stack Sum\02.Stack Sum.csproj", "{B14EA065-DC29-43D5-B1E8-78FB57580B09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.csproj", "{F8DB0D4C-1689-432B-A08A-9E925484F797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Simple Calculator", "3. Simple Calculator\03. Simple Calculator.csproj", "{F8DB0D4C-1689-432B-A08A-9E925484F797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matching Brackets", "04.Matching Brackets\4. Matching Brackets.csproj", "{56877C23-FA1A-4F0F-A06D-83BC002CF70D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Matching Brackets", "04.Matching Brackets\04. Matching Brackets.csproj", "{56877C23-FA1A-4F0F-A06D-83BC002CF70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Print Even Numbers", "5. Print Even Numbers\5. Print Even Numbers.csproj", "{D1015CBB-B090-418E-B677-9F7096431472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Print Even Numbers", "5. Print Even Numbers\05. Print Even Numbers.csproj", "{D1015CBB-B090-418E-B677-9F7096431472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Supermarket", "6. Supermarket\6. Supermarket.csproj", "{E44F76F9-63E8-4E5B-AAA3-FA7924C5878B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Supermarket", "6. Supermarket\06. Supermarket.csproj", "{E44F76F9-63E8-4E5B-AAA3-FA7924C5878B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Hot Potato", "7. Hot Potato\7. Hot Potato.csproj", "{4E1151DC-229F-4C1B-A421-2AB45CD9D61B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Hot Potato", "7. Hot Potato\07. Hot Potato.csproj", "{4E1151DC-229F-4C1B-A421-2AB45CD9D61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Traffic Jam", "08. Traffic Jam\08. Traffic Jam.csproj", "{445EE253-1AF8-4D45-B125-332ADA13F2B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{4E1151DC-229F-4C1B-A421-2AB45CD9D61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E1151DC-229F-4C1B-A421-2AB45CD9D61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E1151DC-229F-4C1B-A421-2AB45CD9D61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445EE253-1AF8-4D45-B125-332ADA13F2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445EE253-1AF8-4D45-B125-332ADA13F2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445EE253-1AF8-4D45-B125-332ADA13F2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445EE253-1AF8-4D45-B125-332ADA13F2B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{D1015CBB-B090-418E-B677-9F7096431472} = {8F3FD8B0-F71A-4245-B594-446642A8AA6E}
 		{E44F76F9-63E8-4E5B-AAA3-FA7924C5878B} = {8F3FD8B0-F71A-4245-B594-446642A8AA6E}
 		{4E1151DC-229F-4C1B-A421-2AB45CD9D61B} = {8F3FD8B0-F71A-4245-B594-446642A8AA6E}
+		{445EE253-1AF8-4D45-B125-332ADA13F2B4} = {8F3FD8B0-F71A-4245-B594-446642A8AA6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83049C2C-4D5D-46CF-ABBA-BA063AD9B4EE}
