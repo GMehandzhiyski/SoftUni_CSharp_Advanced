@@ -6,18 +6,28 @@ namespace _7._Hot_Potato
     {
         static void Main(string[] args)
         {
-           string[] inputPlayers = Console.ReadLine()
-                .Split(" ",StringSplitOptions.RemoveEmptyEntries)
-                .ToArray();
+            string[] inputPlayers = Console.ReadLine()
+                 .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                 .ToArray();
 
             int hotPottato = int.Parse(Console.ReadLine());
 
-            Queue<string>  playersQueue = new Queue<string>(inputPlayers);
+            Queue<string> playersQueue = new Queue<string>(inputPlayers);
 
             int cycleCounter = 1;
             while (playersQueue.Count > 1)
-            { 
-                playersQueue.Enqueue(playersQueue.Dequeue());
+            {
+                if (hotPottato == 1)
+                {
+                   playersQueue.Dequeue();
+
+                    string removeHotPottato = playersQueue.Dequeue();
+                    Console.WriteLine($"Removed {removeHotPottato}");
+
+                }
+                else 
+                { 
+                  playersQueue.Enqueue(playersQueue.Dequeue());
                 cycleCounter++;
                 if (cycleCounter == hotPottato)
                 {
@@ -25,6 +35,8 @@ namespace _7._Hot_Potato
                     Console.WriteLine($"Removed {removeHotPottato}");
                     cycleCounter = 1;
                 }
+                }
+              
 
             }
 
