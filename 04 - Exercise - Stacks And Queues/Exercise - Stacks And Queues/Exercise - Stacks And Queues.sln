@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{3E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Basic Stack Operations", "01. Basic Stack Operations\01. Basic Stack Operations.csproj", "{9A8430FE-D3F1-4D7A-B8B2-E5B438D93CFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Basic Queue Operations", "02. Basic Queue Operations\02. Basic Queue Operations.csproj", "{694A035E-0226-4639-A2E2-34BB6A138BE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{9A8430FE-D3F1-4D7A-B8B2-E5B438D93CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A8430FE-D3F1-4D7A-B8B2-E5B438D93CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A8430FE-D3F1-4D7A-B8B2-E5B438D93CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694A035E-0226-4639-A2E2-34BB6A138BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694A035E-0226-4639-A2E2-34BB6A138BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694A035E-0226-4639-A2E2-34BB6A138BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694A035E-0226-4639-A2E2-34BB6A138BE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{4E1151DC-229F-4C1B-A421-2AB45CD9D61B} = {8F3FD8B0-F71A-4245-B594-446642A8AA6E}
 		{445EE253-1AF8-4D45-B125-332ADA13F2B4} = {8F3FD8B0-F71A-4245-B594-446642A8AA6E}
 		{9A8430FE-D3F1-4D7A-B8B2-E5B438D93CFD} = {3E1F9EFF-7E75-47EE-A54E-66A46446D760}
+		{694A035E-0226-4639-A2E2-34BB6A138BE5} = {3E1F9EFF-7E75-47EE-A54E-66A46446D760}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83049C2C-4D5D-46CF-ABBA-BA063AD9B4EE}
