@@ -18,7 +18,7 @@
                         && carQueue.Any())
                     {
                         string carPass = carQueue.Dequeue();
-                        Console.WriteLine($"{carPass} car passed!");
+                        Console.WriteLine($"{carPass} passed!");
                         cycleToPass--;
                         cycleCarPass++;
                     }
