@@ -24,12 +24,19 @@
 
             while (ordersQueue.Any())
             {
-                int orderComplete = ordersQueue.Dequeue();
+                int orderComplete = ordersQueue.Peek();
+                string orderLeft = string.Empty;
+
                 if (orderComplete > quantityFood)
                 {
-                    Console.WriteLine($"Orders left: {orderComplete}");
+                    foreach (var currOrder in ordersQueue)
+                    {
+                        orderLeft += currOrder + " ";
+                    }
+                    Console.WriteLine($"Orders left: {orderLeft}");
                     return;
                 }
+                ordersQueue.Dequeue();
                 quantityFood -= orderComplete;
                 
             }
