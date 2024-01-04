@@ -25,26 +25,35 @@
 
                 pumps.Enqueue((petrol, distance));
             }
-
+            int bestRoute = 0;
             while (true)
             {
-                foreach (var pump in pumps)
+                int petrol = 0;
+                foreach ((int,int) pump in pumps)
                 {
-                    int petrol = pump.Item1;
+                    petrol += pump.Item1;
                     int distance = pump.Item2;
                     if (petrol - distance < 0)
                     {
-
+                        petrol = -1;
+                        break;
                     }
                     else
                     { 
-                    
+                        petrol -= distance;
                     }
                 }
+                if (petrol >= 0)
+                {
+                    break;
+                }
+                bestRoute++;
+                pumps.Enqueue(pumps.Dequeue());
 
+                
             }
 
-            ;
+            Console.WriteLine(bestRoute);
         }
     }
 }
