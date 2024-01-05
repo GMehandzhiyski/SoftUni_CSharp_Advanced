@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Songs Queue", "06. Song
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Truck Tour", "07. Truck Tour\07. Truck Tour.csproj", "{674E0262-8F35-4FF1-B80F-EDB46DCFB251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Balanced Parenthesis", "08. Balanced Parenthesis\08. Balanced Parenthesis.csproj", "{497F4069-9ED9-472E-AB42-2CD732F12349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Balanced Parenthesis", "08. Balanced Parenthesis\08. Balanced Parenthesis.csproj", "{497F4069-9ED9-472E-AB42-2CD732F12349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Simple Text Editor", "09. Simple Text Editor\09. Simple Text Editor.csproj", "{FE950097-D14A-495C-9485-994DCE0DA9E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Simple Text Editor", "09. Simple Text Editor\09. Simple Text Editor.csproj", "{FE950097-D14A-495C-9485-994DCE0DA9E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Crossroads", "10. Crossroads\10. Crossroads.csproj", "{DEA32EFF-D04D-40DC-B121-03B2B06925DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{FE950097-D14A-495C-9485-994DCE0DA9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE950097-D14A-495C-9485-994DCE0DA9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE950097-D14A-495C-9485-994DCE0DA9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA32EFF-D04D-40DC-B121-03B2B06925DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA32EFF-D04D-40DC-B121-03B2B06925DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA32EFF-D04D-40DC-B121-03B2B06925DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA32EFF-D04D-40DC-B121-03B2B06925DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +149,7 @@ Global
 		{674E0262-8F35-4FF1-B80F-EDB46DCFB251} = {3E1F9EFF-7E75-47EE-A54E-66A46446D760}
 		{497F4069-9ED9-472E-AB42-2CD732F12349} = {3E1F9EFF-7E75-47EE-A54E-66A46446D760}
 		{FE950097-D14A-495C-9485-994DCE0DA9E1} = {3E1F9EFF-7E75-47EE-A54E-66A46446D760}
+		{DEA32EFF-D04D-40DC-B121-03B2B06925DA} = {3E1F9EFF-7E75-47EE-A54E-66A46446D760}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83049C2C-4D5D-46CF-ABBA-BA063AD9B4EE}
