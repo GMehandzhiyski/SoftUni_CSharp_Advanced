@@ -9,47 +9,51 @@
 
             Stack<char> symbolStack = new Stack<char>();
 
-            for (int i = 0; i < inputChar.Length; i++)
+            foreach (var currSymbol in inputChar)
             {
-                char currSymbol = inputChar[i];
                 if (currSymbol == '{'
                     || currSymbol == '('
                     || currSymbol == '[')
                 {
                     symbolStack.Push(currSymbol);
+                    continue;
                 }
-                else
+
+
+                if (symbolStack.Count == 0)
                 {
-                    char currSymbolInStack = symbolStack.Peek();
-                    if (currSymbolInStack == '{'
-                        && currSymbol == '}')
-                    {
-                        symbolStack.Pop();
-                    }
-                    else if (currSymbolInStack == '('
-                             && currSymbol == ')')
-                    {
-                        symbolStack.Pop();
-                    }
-                    else if (currSymbolInStack == '['
-                             && currSymbol == ']')
-                    {
-                        symbolStack.Pop();
-                    }
-                    else
-                    {
-                        Console.WriteLine("NO");
-                        return;
-                    }
+                    symbolStack.Push(currSymbol);
+                    break;
                 }
+
+                char currSymbolInStack = symbolStack.Peek();
+                if (currSymbolInStack == '{'
+                        && currSymbol == '}')
+                {
+                    symbolStack.Pop();
+                }
+                else if (currSymbolInStack == '('
+                         && currSymbol == ')')
+                {
+                    symbolStack.Pop();
+                }
+                else if (currSymbolInStack == '['
+                         && currSymbol == ']')
+                {
+                    symbolStack.Pop();
+                }
+
             }
-            if (symbolStack.Count > 0)
+            if (symbolStack.Count == 0)
+            {
+                Console.WriteLine("YES");
+            }
+            else
             {
                 Console.WriteLine("NO");
-                return;
             }
-            
-            Console.WriteLine("YES");
+
+
         }
     }
 }
