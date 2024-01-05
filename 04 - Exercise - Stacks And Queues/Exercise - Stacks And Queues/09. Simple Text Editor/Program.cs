@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Reflection;
 
 namespace _09._Simple_Text_Editor
 {
@@ -7,7 +8,10 @@ namespace _09._Simple_Text_Editor
         static void Main(string[] args)
         {
             int numberOperation = int.Parse(Console.ReadLine());
+
             string mainString = string.Empty;
+
+            Stack<string> stateStack = new Stack<string>();
 
             for (int i = 0; i < numberOperation; i++)
             {
@@ -15,20 +19,30 @@ namespace _09._Simple_Text_Editor
                     .Split(" ",StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
 
-                //Stack<string> textStack = new Stack<string>();
+              
                
                 string command = commmands[0];
                 int command3Counter = 0;
 
-                if (command == "1")
+                if (command == "1") // add sting
                 {
-                   mainString += commmands[1];
+                    stateStack.Push(mainString);
+                    mainString += commmands[1];
+                   
                 }
-                else if (command == "2")
-                { 
-                
+                else if (command == "2") // delate last
+                {
+                    stateStack.Push(mainString);
+                    int delNumber =int.Parse(commmands[1]);
+                    int startIndex = (mainString.Length - delNumber) - 1;
+                    if (startIndex < 0)
+                    {
+                        startIndex  = 0;    
+                    }
+                    mainString = mainString.Remove(startIndex, delNumber);  
+
                 }
-                else if (command == "3") 
+                else if (command == "3")  //Print 
                 {
                     int numberOfChar = int.Parse(commmands[1]);
                     foreach (var currSymbol in mainString)
@@ -43,8 +57,8 @@ namespace _09._Simple_Text_Editor
                     command3Counter = 0;
                 }
                 else if (command == "4") 
-                { 
-                
+                {
+                    mainString = stateStack.Pop();
                 }
             }
         }
