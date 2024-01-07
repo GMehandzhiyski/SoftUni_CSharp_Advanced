@@ -26,10 +26,18 @@
                     matrix[i,j] = inputRows[j];  
                 }
             }
+
             int sumOfElelmets = 0;
-            foreach (int row in matrix)
+            //foreach (int row in matrix)
+            //{
+            //    sumOfElelmets += row;   
+            //}
+            for (int i = 0; i < rows; i++)
             {
-                sumOfElelmets += row;   
+                for (int j = 0; j < cols; j++)
+                {
+                    sumOfElelmets += matrix[i,j];
+                }
             }
 
             Console.WriteLine(matrix.GetLength(0));
