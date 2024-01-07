@@ -28,17 +28,17 @@
             }
 
             int sumOfElelmets = 0;
-            //foreach (int row in matrix)
-            //{
-            //    sumOfElelmets += row;   
-            //}
-            for (int i = 0; i < rows; i++)
+            foreach (int row in matrix)
             {
-                for (int j = 0; j < cols; j++)
-                {
-                    sumOfElelmets += matrix[i,j];
-                }
+                sumOfElelmets += row;
             }
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < cols; j++)
+            //    {
+            //        sumOfElelmets
+            //    }
+            //}
 
             Console.WriteLine(matrix.GetLength(0));
             Console.WriteLine(matrix.GetLength(1));
