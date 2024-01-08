@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise - Multidimensional Arrays", "Exercise - Multidimensional Arrays\Exercise - Multidimensional Arrays.csproj", "{AE380A82-BABE-442B-938F-11FF8C6E3CDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise - Multidimensional Arrays", "Exercise - Multidimensional Arrays\Exercise - Multidimensional Arrays.csproj", "{AE380A82-BABE-442B-938F-11FF8C6E3CDD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{2601B5DF-FC33-4492-842F-AC769F09A356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Sum Matrix Elements", "1. Sum Matrix Elements\1. Sum Matrix Elements.csproj", "{F32F4451-7037-4A80-84D5-260C74CCA568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Sum Matrix Elements", "1. Sum Matrix Elements\1. Sum Matrix Elements.csproj", "{F32F4451-7037-4A80-84D5-260C74CCA568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Sum Matrix Columns", "2. Sum Matrix Columns\2. Sum Matrix Columns.csproj", "{57E466C3-CA10-4135-954D-25E3CF1C06B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Sum Matrix Columns", "2. Sum Matrix Columns\2. Sum Matrix Columns.csproj", "{57E466C3-CA10-4135-954D-25E3CF1C06B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Primary Diagonal", "3. Primary Diagonal\3. Primary Diagonal.csproj", "{7021E24E-5FE8-4454-8701-4B6E5F6EA7BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Primary Diagonal", "3. Primary Diagonal\3. Primary Diagonal.csproj", "{7021E24E-5FE8-4454-8701-4B6E5F6EA7BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Symbol in Matrix", "4. Symbol in Matrix\4. Symbol in Matrix.csproj", "{BB948A19-05F7-4437-8FA1-D33B5974D63D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{7021E24E-5FE8-4454-8701-4B6E5F6EA7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7021E24E-5FE8-4454-8701-4B6E5F6EA7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7021E24E-5FE8-4454-8701-4B6E5F6EA7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB948A19-05F7-4437-8FA1-D33B5974D63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB948A19-05F7-4437-8FA1-D33B5974D63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB948A19-05F7-4437-8FA1-D33B5974D63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB948A19-05F7-4437-8FA1-D33B5974D63D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{F32F4451-7037-4A80-84D5-260C74CCA568} = {2601B5DF-FC33-4492-842F-AC769F09A356}
 		{57E466C3-CA10-4135-954D-25E3CF1C06B0} = {2601B5DF-FC33-4492-842F-AC769F09A356}
 		{7021E24E-5FE8-4454-8701-4B6E5F6EA7BF} = {2601B5DF-FC33-4492-842F-AC769F09A356}
+		{BB948A19-05F7-4437-8FA1-D33B5974D63D} = {2601B5DF-FC33-4492-842F-AC769F09A356}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9606C31-7EDA-443E-8271-94F9CC9579D6}
