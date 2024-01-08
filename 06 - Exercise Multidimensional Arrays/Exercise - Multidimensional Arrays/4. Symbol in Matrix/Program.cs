@@ -44,7 +44,7 @@ namespace _4._Symbol_in_Matrix
                     }
                 }
             }
-            Console.WriteLine($"{searchSymbol}does not occur in the matrix");
+            Console.WriteLine($"{searchSymbol} does not occur in the matrix");
         }
     }
 }
