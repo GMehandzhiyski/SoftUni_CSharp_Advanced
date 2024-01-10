@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Diagonal Difference", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Squares in Matrix", "2. Squares in Matrix\2. Squares in Matrix.csproj", "{61FCF577-824E-4059-9A32-B0145CF17A54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Maximal Sum", "3. Maximal Sum\3. Maximal Sum.csproj", "{2EC93A6E-7477-4D15-92E9-CF2FE4311146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{61FCF577-824E-4059-9A32-B0145CF17A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61FCF577-824E-4059-9A32-B0145CF17A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61FCF577-824E-4059-9A32-B0145CF17A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC93A6E-7477-4D15-92E9-CF2FE4311146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC93A6E-7477-4D15-92E9-CF2FE4311146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC93A6E-7477-4D15-92E9-CF2FE4311146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC93A6E-7477-4D15-92E9-CF2FE4311146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{2CCCB121-5FBB-4894-B6BD-D555D76BDB07} = {2601B5DF-FC33-4492-842F-AC769F09A356}
 		{7B6F463E-6076-46E3-BF7F-602F98552873} = {301ABD6F-1EE5-480B-996C-B912AA771C96}
 		{61FCF577-824E-4059-9A32-B0145CF17A54} = {301ABD6F-1EE5-480B-996C-B912AA771C96}
+		{2EC93A6E-7477-4D15-92E9-CF2FE4311146} = {301ABD6F-1EE5-480B-996C-B912AA771C96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9606C31-7EDA-443E-8271-94F9CC9579D6}
