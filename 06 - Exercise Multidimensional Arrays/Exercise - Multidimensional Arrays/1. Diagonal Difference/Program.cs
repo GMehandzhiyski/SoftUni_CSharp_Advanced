@@ -22,6 +22,7 @@ namespace _1._Diagonal_Difference
                 }
 
             }
+
             int primaryDiagSum = 0;
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
@@ -30,7 +31,7 @@ namespace _1._Diagonal_Difference
 
             int secondDiagSum = 0;
             int colDiag = 0;
-            for (int row = matrix.GetLength(0) - 1; row >= 0; row--)
+            for (int row = matrix.GetLength(1) - 1; row >= 0; row--)
             {
 
                 secondDiagSum += matrix[row, colDiag];
