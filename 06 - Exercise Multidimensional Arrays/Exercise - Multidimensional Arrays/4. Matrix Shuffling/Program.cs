@@ -103,14 +103,13 @@
 
         private static bool CheckCoordinate(string[,] matrix, int rowFirst, int colFirst, int rowSecond, int colSecond)
         {
-            if (rowFirst >= 0 && rowFirst <= matrix.GetLength(0) - 1
-               && colFirst >= 0 && colFirst <= matrix.GetLength(1) - 1
-               && rowSecond >= 0 && rowSecond <= matrix.GetLength(0) - 1
-               && colSecond >= 0 && rowSecond <= matrix.GetLength(1) - 1)
-            { 
-                return true;
-            }
-                return false;
+            return
+            rowFirst >= 0 && rowFirst <= matrix.GetLength(0) - 1 
+            && colFirst >= 0 && colFirst <= matrix.GetLength(1) - 1
+            && rowSecond >= 0 && rowSecond <= matrix.GetLength(0) - 1
+            && colSecond >= 0 && rowSecond <= matrix.GetLength(1) - 1;
+
+        
         }
 
         private static bool CheckCommand(string command)

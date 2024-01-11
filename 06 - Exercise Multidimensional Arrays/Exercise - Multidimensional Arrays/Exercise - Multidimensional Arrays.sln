@@ -27,11 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Squares in Matrix", "2. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Maximal Sum", "3. Maximal Sum\3. Maximal Sum.csproj", "{2EC93A6E-7477-4D15-92E9-CF2FE4311146}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matrix Shuffling80", "4. Matrix Shuffling\4. Matrix Shuffling80.csproj", "{9FC79420-B2ED-47C7-A9E8-D24E3C642588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Matrix Shuffling80", "4. Matrix Shuffling\4. Matrix Shuffling80.csproj", "{9FC79420-B2ED-47C7-A9E8-D24E3C642588}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Snake Moves", "5. Snake Moves\5. Snake Moves.csproj", "{0DBF8C67-4E06-4158-9B41-442FB903103D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Snake Moves", "5. Snake Moves\5. Snake Moves.csproj", "{0DBF8C67-4E06-4158-9B41-442FB903103D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Jagged Array Manipulator", "6. Jagged Array Manipulator\6. Jagged Array Manipulator.csproj", "{5406F45F-4802-450E-83A5-72ABDE9E4DBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Jagged Array Manipulator85", "6. Jagged Array Manipulator\6. Jagged Array Manipulator85.csproj", "{5406F45F-4802-450E-83A5-72ABDE9E4DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Knight Game", "7. Knight Game\7. Knight Game.csproj", "{05B7A3BF-3C1F-4D9A-B178-80C95E6FDF6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{5406F45F-4802-450E-83A5-72ABDE9E4DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5406F45F-4802-450E-83A5-72ABDE9E4DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5406F45F-4802-450E-83A5-72ABDE9E4DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B7A3BF-3C1F-4D9A-B178-80C95E6FDF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B7A3BF-3C1F-4D9A-B178-80C95E6FDF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B7A3BF-3C1F-4D9A-B178-80C95E6FDF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B7A3BF-3C1F-4D9A-B178-80C95E6FDF6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{9FC79420-B2ED-47C7-A9E8-D24E3C642588} = {301ABD6F-1EE5-480B-996C-B912AA771C96}
 		{0DBF8C67-4E06-4158-9B41-442FB903103D} = {301ABD6F-1EE5-480B-996C-B912AA771C96}
 		{5406F45F-4802-450E-83A5-72ABDE9E4DBD} = {301ABD6F-1EE5-480B-996C-B912AA771C96}
+		{05B7A3BF-3C1F-4D9A-B178-80C95E6FDF6A} = {301ABD6F-1EE5-480B-996C-B912AA771C96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9606C31-7EDA-443E-8271-94F9CC9579D6}
