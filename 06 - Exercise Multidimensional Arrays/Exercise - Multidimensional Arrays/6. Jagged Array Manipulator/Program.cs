@@ -53,6 +53,7 @@
                 string[] commands = argumets
                     .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
+
                 if (commands.Length != 4)
                 {
                     continue;
@@ -75,7 +76,7 @@
                 if (command == "Add")
                 {
                     jagged[row][col] += value;
-                    continue;
+
                 }
 
                 if (command == "Subtract")
@@ -91,9 +92,9 @@
         {
            return
                 row >= 0 
-                && row <= jagged[1].Length
+                && row < jagged.Length
                 && col >=0 
-                && col <= jagged[0].Length ;
+                && col < jagged[row].Length ;
         }
 
         private static bool CheckCommand(string command)
