@@ -53,7 +53,7 @@
                 bool isCommandCorect = CheckCommand(command);
 
                 if (!isCommandCorect
-                    && command.Length != 5)
+                    || commands.Length != 5)
                 {
                     PrintErrorMesage();
                     continue;
