@@ -26,6 +26,7 @@
                 string[] inputNumber = Console.ReadLine()
                     .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
+                
                 if (inputNumber.Length == colsSize)
                 {
                     for (int col = 0; col < colsSize; col++)
@@ -37,6 +38,7 @@
                 {
                     continue;
                 }
+
                 
             }
 
@@ -84,7 +86,6 @@
         private static void PrintErrorMesage()
         {
             Console.WriteLine("Invalid input!");
-            
         }
 
         private static void PrintMatrix(string[,] matrix)
