@@ -88,6 +88,7 @@
             PrintJagged(jagged, rowSize);
         }
 
+       
         private static bool CheckCoordinate(int row, int col, int[][] jagged)
         {
            return
@@ -113,7 +114,7 @@
                 }
                 Console.WriteLine();
             }
-            
-        }
+        
+        } 
     }
 }
