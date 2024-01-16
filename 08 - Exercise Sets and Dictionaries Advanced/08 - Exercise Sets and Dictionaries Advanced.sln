@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 - Exercise Sets and Dictionaries Advanced", "08 - Exercise Sets and Dictionaries Advanced\08 - Exercise Sets and Dictionaries Advanced.csproj", "{2CCC23A8-FFA1-423F-A2C2-0A191A41D8DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08 - Exercise Sets and Dictionaries Advanced", "08 - Exercise Sets and Dictionaries Advanced\08 - Exercise Sets and Dictionaries Advanced.csproj", "{2CCC23A8-FFA1-423F-A2C2-0A191A41D8DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{42919692-A4D5-4B50-BE59-59A8F69A47FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Count Same Values in Array", "01.Count Same Values in Array\01.Count Same Values in Array.csproj", "{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Count Same Values in Array", "01.Count Same Values in Array\01.Count Same Values in Array.csproj", "{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Average Student Grades", "02. Average Student Grades\02. Average Student Grades.csproj", "{31BB7911-AFCE-4438-B07C-BCCF79FC1412}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Average Student Grades", "02. Average Student Grades\02. Average Student Grades.csproj", "{31BB7911-AFCE-4438-B07C-BCCF79FC1412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Largest 3 Numbers", "3. Largest 3 Numbers\3. Largest 3 Numbers.csproj", "{35158796-D7B9-4D64-A378-2102FE69DB24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{31BB7911-AFCE-4438-B07C-BCCF79FC1412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31BB7911-AFCE-4438-B07C-BCCF79FC1412}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31BB7911-AFCE-4438-B07C-BCCF79FC1412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35158796-D7B9-4D64-A378-2102FE69DB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35158796-D7B9-4D64-A378-2102FE69DB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35158796-D7B9-4D64-A378-2102FE69DB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35158796-D7B9-4D64-A378-2102FE69DB24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
 		{31BB7911-AFCE-4438-B07C-BCCF79FC1412} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
+		{35158796-D7B9-4D64-A378-2102FE69DB24} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC88280-CBEF-4B01-9B12-1255E565E4FE}
