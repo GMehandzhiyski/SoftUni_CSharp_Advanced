@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] numbers = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+
+            int[] sorted = numbers.OrderByDescending(n => n)
+                .ToArray();    
+
+            for (int i = 0; i < sorted.Length && i < 3; i++) 
+            {
+                
+                Console.Write(string.Join("  ", sorted[i]) + " ");
+            }
         }
     }
 }

@@ -33,10 +33,10 @@
 
                 foreach (var grade in currStudent.Value)
                 {
-                    Console.Write($"{grade}");
+                    Console.Write($"{grade:f2} ");
                 }
 
-                Console.WriteLine($"avg: { currStudent.Value.Average():f2}");
+                Console.WriteLine($"(avg: { currStudent.Value.Average():f2})");
             }
         }
     }
