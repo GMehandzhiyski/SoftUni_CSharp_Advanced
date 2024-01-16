@@ -4,39 +4,39 @@
     {
         static void Main(string[] args)
         {
-            int studentNumber = int.Parse(Console.ReadLine());
+            
 
-            Dictionary<string, List<double>> students = new Dictionary<string, List<double>>();
+            Dictionary<string, List<decimal>> students = new Dictionary<string, List<decimal>>();
+
+            int studentNumber = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < studentNumber; i++)
             {
                 string[] inputString = Console.ReadLine()
-                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                    .ToArray();
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                    
 
                 string studentName = inputString[0];
-                double studentGrade = double.Parse(inputString[1]);
+                decimal studentGrade = decimal.Parse(inputString[1]);
 
                 if (!students.ContainsKey(studentName))
                 {
-                   students.Add(studentName, new List<double>());
+                   students.Add(studentName, new List<decimal>());
+                   
                 }
-                else
-                {
-                    students[studentName].Add(studentGrade);
-                }
+                students[studentName].Add(studentGrade);
             }
 
-            foreach (var (currStudent,currGrades) in students)
+            foreach (var currStudent in students)
             {
-                double averageGrade = currGrades.Average();
-                Console.Write($"{currStudent} -> ");
+                Console.Write($"{currStudent.Key} -> ");
 
-                foreach (var currGrade in students)
+                foreach (var grade in currStudent.Value)
                 {
-                    Console.WriteLine($"{currGrade.Value}:f2");
+                    Console.Write($"{grade}");
                 }
-                Console.WriteLine($"(avr:{averageGrade:f2})");
+
+                Console.WriteLine($"avg: { currStudent.Value.Average():f2}");
             }
         }
     }
