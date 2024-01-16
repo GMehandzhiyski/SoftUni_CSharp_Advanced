@@ -25,7 +25,19 @@
                 {
                     students[studentName].Add(studentGrade);
                 }
-             }
+            }
+
+            foreach (var (currStudent,currGrades) in students)
+            {
+                double averageGrade = currGrades.Average();
+                Console.Write($"{currStudent} -> ");
+
+                foreach (var currGrade in students)
+                {
+                    Console.WriteLine($"{currGrade.Value}:f2");
+                }
+                Console.WriteLine($"(avr:{averageGrade:f2})");
+            }
         }
     }
 }
