@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{42919692-A4D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Count Same Values in Array", "01.Count Same Values in Array\01.Count Same Values in Array.csproj", "{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Average Student Grades", "02. Average Student Grades\02. Average Student Grades.csproj", "{31BB7911-AFCE-4438-B07C-BCCF79FC1412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,17 @@ Global
 		{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BB7911-AFCE-4438-B07C-BCCF79FC1412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BB7911-AFCE-4438-B07C-BCCF79FC1412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BB7911-AFCE-4438-B07C-BCCF79FC1412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BB7911-AFCE-4438-B07C-BCCF79FC1412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DFFC8EF1-BDCA-4AB3-9B79-0CEBC7070425} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
+		{31BB7911-AFCE-4438-B07C-BCCF79FC1412} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC88280-CBEF-4B01-9B12-1255E565E4FE}
