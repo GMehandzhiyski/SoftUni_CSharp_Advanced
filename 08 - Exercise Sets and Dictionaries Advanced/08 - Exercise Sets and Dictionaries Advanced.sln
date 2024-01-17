@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Cities by Continent and
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Record Unique Names", "06. Record Unique Names\06. Record Unique Names.csproj", "{4821232E-C966-49FB-B3EB-E02110D5666B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Parking Lot", "07. Parking Lot\07. Parking Lot.csproj", "{A7FB7AB4-E826-455B-AC4A-D8B2DE9E643A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{4821232E-C966-49FB-B3EB-E02110D5666B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4821232E-C966-49FB-B3EB-E02110D5666B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4821232E-C966-49FB-B3EB-E02110D5666B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7FB7AB4-E826-455B-AC4A-D8B2DE9E643A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FB7AB4-E826-455B-AC4A-D8B2DE9E643A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FB7AB4-E826-455B-AC4A-D8B2DE9E643A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FB7AB4-E826-455B-AC4A-D8B2DE9E643A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{E52D4D89-A545-4EA0-B5DE-9AAA4228ADAF} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
 		{A26EFE21-91F1-48B4-9DCA-F15E6366EF14} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
 		{4821232E-C966-49FB-B3EB-E02110D5666B} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
+		{A7FB7AB4-E826-455B-AC4A-D8B2DE9E643A} = {42919692-A4D5-4B50-BE59-59A8F69A47FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC88280-CBEF-4B01-9B12-1255E565E4FE}
