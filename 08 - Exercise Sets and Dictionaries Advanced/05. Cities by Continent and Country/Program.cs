@@ -12,7 +12,7 @@ namespace _05._Cities_by_Continent_and_Country
             for (int i = 0; i < number; i++)
             {
                 string[] inputString = Console.ReadLine()
-                    .Split(" ",StringSplitOptions.RemoveEmptyEntries)
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
 
                 string continent = inputString[0];
@@ -29,16 +29,14 @@ namespace _05._Cities_by_Continent_and_Country
                     continents[continent].Add(country, new List<string>());
                 }
 
-                if (!continents[continent][country].Contains(town))
-                {
-                    continents[continent][country].Add(town);
-                }
+                
+                continents[continent][country].Add(town);
 
             }
-            
+
             foreach (var continent in continents)
             {
-              
+
                 Console.WriteLine($"{continent.Key}:");
                 foreach (var country in continent.Value)
                 {
@@ -48,7 +46,7 @@ namespace _05._Cities_by_Continent_and_Country
                     {
                         finalTown += town + ", ";
                     }
-                    Console.Write($"{finalTown.TrimEnd(',',' ')}");
+                    Console.Write($"{finalTown.TrimEnd(',', ' ')}");
                     Console.WriteLine();
                 }
             }
