@@ -16,6 +16,6 @@ void PrintResult(SortedDictionary<char, int> symbolsCount)
 {
     foreach (var currSymbol in symbolsCount)
     {
-        Console.WriteLine($"{currSymbol.Key} : {currSymbol.Value} time/s");
+        Console.WriteLine($"{currSymbol.Key}: {currSymbol.Value} time/s");
     }
 }
