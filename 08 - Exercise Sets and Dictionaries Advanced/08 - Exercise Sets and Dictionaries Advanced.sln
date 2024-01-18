@@ -27,11 +27,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{A5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Unique Usernames", "01. Unique Usernames\01. Unique Usernames.csproj", "{A4368FAE-9865-46CD-8866-DE51E880748C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{A968B350-0971-4B5F-87DA-54AF4E11C35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Sets of Elements", "02. Sets of Elements\02. Sets of Elements.csproj", "{A968B350-0971-4B5F-87DA-54AF4E11C35A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Periodic Table", "03. Periodic Table\03. Periodic Table.csproj", "{25189CCA-4AD2-4795-BF14-07B5E98D0AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Periodic Table", "03. Periodic Table\03. Periodic Table.csproj", "{25189CCA-4AD2-4795-BF14-07B5E98D0AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Even Times", "04. Even Times\04. Even Times.csproj", "{0306386B-492D-4F34-A9A3-EF3BFA0B9EE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Even Times", "04. Even Times\04. Even Times.csproj", "{0306386B-492D-4F34-A9A3-EF3BFA0B9EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Count Symbols", "05. Count Symbols\05. Count Symbols.csproj", "{DB538EE0-3E72-43D6-AD08-0EC891FBCBA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{0306386B-492D-4F34-A9A3-EF3BFA0B9EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0306386B-492D-4F34-A9A3-EF3BFA0B9EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0306386B-492D-4F34-A9A3-EF3BFA0B9EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB538EE0-3E72-43D6-AD08-0EC891FBCBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB538EE0-3E72-43D6-AD08-0EC891FBCBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB538EE0-3E72-43D6-AD08-0EC891FBCBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB538EE0-3E72-43D6-AD08-0EC891FBCBA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{A968B350-0971-4B5F-87DA-54AF4E11C35A} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 		{25189CCA-4AD2-4795-BF14-07B5E98D0AE0} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 		{0306386B-492D-4F34-A9A3-EF3BFA0B9EE2} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
+		{DB538EE0-3E72-43D6-AD08-0EC891FBCBA1} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC88280-CBEF-4B01-9B12-1255E565E4FE}
