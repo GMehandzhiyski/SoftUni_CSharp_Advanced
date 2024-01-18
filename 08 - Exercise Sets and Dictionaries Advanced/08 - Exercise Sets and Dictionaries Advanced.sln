@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Count Symbols", "05. Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Wardrobe", "06. Wardrobe\06. Wardrobe.csproj", "{BDAE7792-7911-48D4-8E1A-8D69E995C44B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. The V-Logger", "07. The V-Logger\07. The V-Logger.csproj", "{D8D6DFDD-CC33-4965-BF82-7CB734AB9151}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{BDAE7792-7911-48D4-8E1A-8D69E995C44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDAE7792-7911-48D4-8E1A-8D69E995C44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDAE7792-7911-48D4-8E1A-8D69E995C44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D6DFDD-CC33-4965-BF82-7CB734AB9151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D6DFDD-CC33-4965-BF82-7CB734AB9151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D6DFDD-CC33-4965-BF82-7CB734AB9151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D6DFDD-CC33-4965-BF82-7CB734AB9151}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +128,7 @@ Global
 		{0306386B-492D-4F34-A9A3-EF3BFA0B9EE2} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 		{DB538EE0-3E72-43D6-AD08-0EC891FBCBA1} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 		{BDAE7792-7911-48D4-8E1A-8D69E995C44B} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
+		{D8D6DFDD-CC33-4965-BF82-7CB734AB9151} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC88280-CBEF-4B01-9B12-1255E565E4FE}
