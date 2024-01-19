@@ -68,7 +68,7 @@ void PrintResult(Dictionary<string, Dictionary<string, SortedSet<string>>> perso
         {
             foreach (var follow in currVlogger.Value["followers"])
             {
-                Console.WriteLine($"* {follow}");
+                Console.WriteLine($"*  {follow}");
             }
         }
     }
