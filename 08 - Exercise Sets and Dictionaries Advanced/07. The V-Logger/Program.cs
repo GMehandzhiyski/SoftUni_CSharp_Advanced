@@ -57,8 +57,21 @@ PrintResult(persons);
 
 void PrintResult(Dictionary<string, Dictionary<string, SortedSet<string>>> persons)
 {
+   int number = 0;
    int countVlogger = persons.Count;
     Console.WriteLine($"The V-Logger has a total of {countVlogger} vloggers in its logs.");
+    foreach (var currVlogger in persons.OrderByDescending(p => p.Value["followers"].Count).ThenBy(p => p.Value["following"].Count))
+    {
+        number++;
+        Console.WriteLine($"{number}. {currVlogger.Key} : {currVlogger.Value["followers"].Count} followers, {currVlogger.Value["following"].Count} following");
+        if (number == 1)
+        {
+            foreach (var follow in currVlogger.Value["followers"])
+            {
+                Console.WriteLine($"* {follow}");
+            }
+        }
+    }
 }
 
 bool CheckName(Dictionary<string, Dictionary<string, SortedSet<string>>> person, string firstName, string secondName)
