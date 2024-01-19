@@ -19,6 +19,10 @@ end of submissions
  */
 
 
+using System.ComponentModel;
+using System.Runtime.InteropServices;
+using System.Xml.Linq;
+
 Dictionary<string, string> trainings = new();
 SortedDictionary<string, Dictionary<string, Dictionary<string,int>>> persons = new();
 //               name               cource             pass   score
@@ -34,7 +38,6 @@ while ((arguments = Console.ReadLine()) != "end of contests")
     string password = token[1];
 
     trainings.Add(contest, password);
-    ;
 }
 
 while ((arguments = Console.ReadLine()) != "end of submissions")
@@ -48,10 +51,77 @@ while ((arguments = Console.ReadLine()) != "end of submissions")
     string name = token[2];
     int score = int.Parse(token[3]);
 
-    // to add rules for correct input
+    bool isCourceCorrect = CheckCource(persons, cource);
+    bool isPasswordCorrect = CheckPassword(persons, password);
+    bool isCourceAndUserIsInclude = CkeckCourceAndUser(persons, name, cource, password, score);
 
-    persons.Add(name, new Dictionary<string, Dictionary<string, int>>());
-    persons[name].Add(cource, new Dictionary<string, int>());
-    persons[name][cource].Add(password, score);
+    if (isCourceCorrect
+        && isPasswordCorrect)
+    {
+        if (true)
+        {
+            
+        }
+        else
+        {
+            persons.Add(name, new Dictionary<string, Dictionary<string, int>>());
+            persons[name].Add(cource, new Dictionary<string, int>());
+            persons[name][cource].Add(password, score);
+        }
+       
+    }
+    else
+    {
+        continue;
+    }
+
+   
 
 }
+
+bool CkeckCourceAndUser(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string name, string cource, string password)
+{
+    foreach (var namme in persons)
+    {
+        foreach (var courcce in namme.Value)
+        {
+            
+        }
+    }
+
+    return true;
+}
+
+bool CheckPassword(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string password)
+{
+    foreach (var name in persons)
+    {
+        foreach (var cource in name.Value)
+        {
+            foreach (var pass in cource.Key)
+            {
+                if (pass == password)///////////deibbbaaaaaa
+                {
+                    return true;
+                }
+            }
+        }
+    }
+    //var keyExists = persons.SelectMany(firstPair => firstPair.Value
+    //                .SelectMany(secondPair => secondPair.Value
+    //                .Select(thirdPair => thirdPair.Key)))
+    //                .Any(key => key == thirdKey);
+    return false;
+}
+
+bool CheckCource(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string cource)
+{
+    return
+         persons.ContainsKey(cource);
+}
+
+//SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons = new();
+//                  name               cource             pass   score
+
+int totalSum = persons.Sum(person => person.Value.Sum(detail => detail.Value.Sum(d => d.Value))); 
+Console.WriteLine(totalSum);
