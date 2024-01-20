@@ -46,19 +46,22 @@ while ((arguments = Console.ReadLine()) != "end of submissions")
        .Split("=>", StringSplitOptions.RemoveEmptyEntries)
        .ToArray();
 
+    string name = token[2];
     string cource = token[0];
     string password = token[1];
-    string name = token[2];
     int score = int.Parse(token[3]);
 
-    bool isCourceCorrect = CheckCource(persons, cource);
-    bool isPasswordCorrect = CheckPassword(persons, password);
-    bool isCourceAndUserIsInclude = CkeckCourceAndUser(persons, name, cource, password, score);
+    bool isCourceCorrect = CheckCource(trainings, cource);
+    bool isPasswordCorrect = CheckPassword(trainings, password);
+    //bool isCourceAndUserIsInclude = CkeckCourceAndUser(persons, name, cource);
+    bool isNameIsInclude = CkeckUser(persons, name);
+    bool isCourceIsInclude = CkeckCource(persons, password);
+   
 
     if (isCourceCorrect
         && isPasswordCorrect)
     {
-        if (true)
+        if (false)
         {
             
         }
@@ -79,49 +82,68 @@ while ((arguments = Console.ReadLine()) != "end of submissions")
 
 }
 
-bool CkeckCourceAndUser(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string name, string cource, string password)
+bool CkeckCource(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons,string password)
 {
-    foreach (var namme in persons)
-    {
-        foreach (var courcce in namme.Value)
-        {
-            
-        }
-    }
-
+    string matchingEntries = persons
+             .Where(n => n.Value.Any(c => c.Value.ContainsKey(password)))
+             .ToString();
+ 
     return true;
 }
 
-bool CheckPassword(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string password)
-{
-    foreach (var name in persons)
-    {
-        foreach (var cource in name.Value)
-        {
-            foreach (var pass in cource.Key)
-            {
-                if (pass == password)///////////deibbbaaaaaa
-                {
-                    return true;
-                }
-            }
-        }
-    }
-    //var keyExists = persons.SelectMany(firstPair => firstPair.Value
-    //                .SelectMany(secondPair => secondPair.Value
-    //                .Select(thirdPair => thirdPair.Key)))
-    //                .Any(key => key == thirdKey);
-    return false;
-}
-
-bool CheckCource(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string cource)
+bool CkeckUser(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string name)
 {
     return
-         persons.ContainsKey(cource);
+    persons.ContainsKey(name);
+}
+
+
+//bool CkeckCourceAndUser(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons, string name, string cource)
+//{
+//    //var currPassword = trainings.Where(p => p.Key == name)
+//    //                       .Select(p => p.Value)
+//    //                       .Where(d => d.ContainsKey(cource))
+//    //                       .Select(d => d[cource]);
+//    //return false;
+//    return true;
+//}
+bool CheckPassword(Dictionary<string, string> trainings, string password)
+{
+    return
+        trainings.ContainsValue(password);
+}
+//bool CheckPassword(SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> trainings, string name, string cource, string password)
+//{
+//    //foreach (var name in persons)
+//    //{
+//    //    foreach (var cource in name.Value)
+//    //    {
+//    //        foreach (var pass in cource.Key)
+//    //        {
+//    //            if (pass == password)///////////deibbbaaaaaa
+//    //            {
+//    //                return true;
+//    //            }
+//    //        }
+//    //    }
+//    //}
+//    var currPassword = trainings.Where(p => p.Key == name)
+//                           .Select(p => p.Value)
+//                           .Where(d => d.ContainsKey(cource))
+//                           .Select(d => d[cource])
+//                           .Where(td => td.ContainsKey(password))
+//                           .Select(td => td[password]);
+//    return false;
+//}
+
+bool CheckCource(Dictionary<string, string> trainings, string cource)
+{
+    return
+         trainings.ContainsKey(cource);
 }
 
 //SortedDictionary<string, Dictionary<string, Dictionary<string, int>>> persons = new();
 //                  name               cource             pass   score
 
-int totalSum = persons.Sum(person => person.Value.Sum(detail => detail.Value.Sum(d => d.Value))); 
+int totalSum = persons.Sum(m => m.Value.Sum(p => p.Value.Sum(s => s.Value))); 
 Console.WriteLine(totalSum);
