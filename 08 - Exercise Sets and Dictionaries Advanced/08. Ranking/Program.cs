@@ -38,7 +38,7 @@ using System.Runtime.InteropServices;
 using System.Xml.Linq;
 
 Dictionary<string, string> trainings = new();
-SortedDictionary<string,SortedDictionary<string,int>> persons = new();
+SortedDictionary<string, SortedDictionary<string, int>> persons = new();
 //               name             cource  score
 
 string arguments = string.Empty;
@@ -76,38 +76,44 @@ while ((arguments = Console.ReadLine()) != "end of submissions")
 
     bool isCourceCorrect = CheckCource(trainings, cource);
     bool isPasswordCorrect = CheckPassword(trainings, password);
-    
+
     if (isCourceCorrect
         && isPasswordCorrect)
     {
         bool isNameIsInclude = CkeckUser(persons, name);
         bool isCourceIsInclude = CkeckCource(persons, name, cource);
 
-        if (isNameIsInclude
-            && isCourceIsInclude)
+        if (!isNameIsInclude)
         {
-            var currscore = persons[name][cource];
-            if (currscore <= score)
-            {
-                persons[name][cource] = currscore;
-            }
+            persons.Add(name, new SortedDictionary<string, int>());
+            //persons[name].Add(cource, score);
         }
         else if (isNameIsInclude
                 && !isCourceIsInclude)
         {
-            persons[name].Add(cource, score);
+            persons[name][cource] = score;
         }
-        else 
+        else if (score > persons[name][cource])
         {
-            persons.Add(name, new SortedDictionary<string, int>());
-            persons[name].Add(cource, score);
+            persons[name][cource] = score;
         }
-       
+
+                    
+        //else if (isNameIsInclude
+        //    && isCourceIsInclude)
+        //{
+        //    var currscore = persons[name][cource];
+        //    if (currscore <= score)
+        //    {
+        //        persons[name][cource] = currscore;
+        //    }
+        //}
+
     }
     else
     {
         continue;
-    
+
     }
 }
 PrintBestCandidate(persons);
@@ -116,7 +122,7 @@ PirntRanking(persons);
 void PirntRanking(SortedDictionary<string, SortedDictionary<string, int>> persons)
 {
     Console.WriteLine("Ranking:");
-    foreach (var currPerson in persons)
+    foreach (var currPerson in persons.OrderBy(x => x.Key))
     {
         Console.WriteLine(currPerson.Key);
         foreach (var currInfo in currPerson.Value.OrderByDescending(c => c.Value))
@@ -128,8 +134,25 @@ void PirntRanking(SortedDictionary<string, SortedDictionary<string, int>> person
 
 void PrintBestCandidate(SortedDictionary<string, SortedDictionary<string, int>> persons)
 {
-    var topCandidate = persons.OrderByDescending(persons => persons.Value.Sum(cource => cource.Value)).First();
-    Console.WriteLine($"Best candidate is {topCandidate.Key} with total {topCandidate.Value.Sum(sum => sum.Value)} points.");
+    int higgestScore = 0;
+    string bestUser = string.Empty;
+
+    foreach (var user in persons)
+    {
+        int currentMaxPoints = 0;
+        foreach (var data in user.Value)
+        {
+            currentMaxPoints += data.Value;
+        }
+        if (currentMaxPoints > higgestScore)
+        {
+            higgestScore = currentMaxPoints;
+            bestUser = user.Key;
+        }
+    }
+    Console.WriteLine($"Best candidate is {bestUser} with total {higgestScore} points.");
+    //var topCandidate = persons.OrderByDescending(persons => persons.Value.Sum(cource => cource.Value)).First();
+    // Console.WriteLine($"Best candidate is {topCandidate.Key} with total {topCandidate.Value.Sum(sum => sum.Value)} points.");
 }
 
 bool CkeckCource(SortedDictionary<string, SortedDictionary<string, int>> persons, string name, string cource)

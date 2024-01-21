@@ -30,12 +30,15 @@ while ((arguments = Console.ReadLine()) != "Lumpawaroo")
 
         string side = token[0];
         string nameUser = token[1];
-
-        if (!members.ContainsKey(side))
-        { 
-            members.Add(side, new SortedSet<string>());
+        if (!members.Values.Any(u => u.Contains(nameUser)))
+        {
+            if (!members.ContainsKey(side))
+            {
+                members.Add(side, new SortedSet<string>());
+            }
+            members[side].Add(nameUser);
         }
-        members[side].Add(nameUser);
+       
 
     }
     else if (command.Contains("->"))
@@ -76,7 +79,7 @@ void PrintResult(SortedDictionary<string, SortedSet<string>> memebrs)
     {
         if (currMember.Value.Any())
         {
-            Console.WriteLine($"Side: {currMember.Key}, Memebers: {currMember.Value.Count}");
+            Console.WriteLine($"Side: {currMember.Key}, Members: {currMember.Value.Count}");
             foreach (var name in currMember.Value)
             {
                 Console.WriteLine($"! {name}");
