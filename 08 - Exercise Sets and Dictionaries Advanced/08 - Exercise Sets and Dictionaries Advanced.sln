@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. The V-Logger", "07. The
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Ranking", "08. Ranking\08. Ranking.csproj", "{897BB417-4F77-4378-BF27-972B7F632302}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. SoftUni Exam Results", "09. SoftUni Exam Results\09. SoftUni Exam Results.csproj", "{3D060A3D-79D4-4E4A-ABF5-BF6A0E371142}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. SoftUni Exam Results", "09. SoftUni Exam Results\09. SoftUni Exam Results.csproj", "{3D060A3D-79D4-4E4A-ABF5-BF6A0E371142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. ForceBook", "10. ForceBook\10. ForceBook.csproj", "{AA203D42-DD9B-458A-B797-048F8AD0E6E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{3D060A3D-79D4-4E4A-ABF5-BF6A0E371142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D060A3D-79D4-4E4A-ABF5-BF6A0E371142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D060A3D-79D4-4E4A-ABF5-BF6A0E371142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA203D42-DD9B-458A-B797-048F8AD0E6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA203D42-DD9B-458A-B797-048F8AD0E6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA203D42-DD9B-458A-B797-048F8AD0E6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA203D42-DD9B-458A-B797-048F8AD0E6E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +149,7 @@ Global
 		{D8D6DFDD-CC33-4965-BF82-7CB734AB9151} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 		{897BB417-4F77-4378-BF27-972B7F632302} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 		{3D060A3D-79D4-4E4A-ABF5-BF6A0E371142} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
+		{AA203D42-DD9B-458A-B797-048F8AD0E6E0} = {A578105D-3A3D-40BC-B75D-279E0F15F422}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AC88280-CBEF-4B01-9B12-1255E565E4FE}
