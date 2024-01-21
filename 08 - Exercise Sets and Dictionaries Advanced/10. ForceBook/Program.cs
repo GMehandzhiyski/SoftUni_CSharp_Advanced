@@ -29,14 +29,14 @@ while ((arguments = Console.ReadLine()) != "Lumpawaroo")
             .ToArray();
 
         string side = token[0];
-        string nameUser = token[1];
-        if (!members.Values.Any(u => u.Contains(nameUser)))
+        string userName = token[1];
+        if (!members.Values.Any(u => u.Contains(userName)))
         {
             if (!members.ContainsKey(side))
             {
                 members.Add(side, new SortedSet<string>());
             }
-            members[side].Add(nameUser);
+            members[side].Add(userName);
         }
        
 
@@ -46,22 +46,22 @@ while ((arguments = Console.ReadLine()) != "Lumpawaroo")
         string[] token = arguments
             .Split(" -> ", StringSplitOptions.RemoveEmptyEntries)
             .ToArray();
-        string nameUser = token[0];
+        string userName = token[0];
         string side = token[1];
 
         foreach (var currMember in members)
         {
-            if (currMember.Value.Contains(nameUser))
+            if (currMember.Value.Contains(userName))
             { 
-                currMember.Value.Remove(nameUser);
+                currMember.Value.Remove(userName);
                 break;
             }
         }
 
         if(members.ContainsKey(side))
         {
-            members[side].Add(nameUser);
-            Console.WriteLine($"{nameUser} joins the {side} side!");
+            members[side].Add(userName);
+            Console.WriteLine($"{userName} joins the {side} side!");
         }
     } 
     else
