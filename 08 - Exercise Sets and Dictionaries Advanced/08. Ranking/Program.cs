@@ -47,6 +47,11 @@ while ((arguments = Console.ReadLine()) != "end of contests")
     string[] token = arguments
         .Split(":", StringSplitOptions.RemoveEmptyEntries)
         .ToArray();
+    if (token.Length < 2
+        && token.Length > 3)
+    {
+        continue;
+    }
 
     string contest = token[0];
     string password = token[1];
@@ -59,7 +64,8 @@ while ((arguments = Console.ReadLine()) != "end of submissions")
     string[] token = arguments
        .Split("=>", StringSplitOptions.RemoveEmptyEntries)
        .ToArray();
-    if (token.Length < 4)
+    if (token.Length < 4
+        && token.Length > 4)
     {
         continue;
     }
