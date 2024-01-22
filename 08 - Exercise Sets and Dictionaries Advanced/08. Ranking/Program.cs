@@ -85,20 +85,19 @@ while ((arguments = Console.ReadLine()) != "end of submissions")
 
         if (!isNameIsInclude)
         {
-            persons.Add(name, new SortedDictionary<string, int>());
+            persons[name] = new SortedDictionary<string, int>();
             //persons[name].Add(cource, score);
         }
-        else if (isNameIsInclude
-                && !isCourceIsInclude)
+        if (!isCourceIsInclude)
         {
             persons[name][cource] = score;
         }
-        else if (score > persons[name][cource])
+        if (score > persons[name][cource])
         {
             persons[name][cource] = score;
         }
 
-                    
+
         //else if (isNameIsInclude
         //    && isCourceIsInclude)
         //{
@@ -134,25 +133,25 @@ void PirntRanking(SortedDictionary<string, SortedDictionary<string, int>> person
 
 void PrintBestCandidate(SortedDictionary<string, SortedDictionary<string, int>> persons)
 {
-    int higgestScore = 0;
-    string bestUser = string.Empty;
+    //int higgestScore = 0;
+    //string bestUser = string.Empty;
 
-    foreach (var user in persons)
-    {
-        int currentMaxPoints = 0;
-        foreach (var data in user.Value)
-        {
-            currentMaxPoints += data.Value;
-        }
-        if (currentMaxPoints > higgestScore)
-        {
-            higgestScore = currentMaxPoints;
-            bestUser = user.Key;
-        }
-    }
-    Console.WriteLine($"Best candidate is {bestUser} with total {higgestScore} points.");
-    //var topCandidate = persons.OrderByDescending(persons => persons.Value.Sum(cource => cource.Value)).First();
-    // Console.WriteLine($"Best candidate is {topCandidate.Key} with total {topCandidate.Value.Sum(sum => sum.Value)} points.");
+    //foreach (var user in persons)
+    //{
+    //    int currentMaxPoints = 0;
+    //    foreach (var data in user.Value)
+    //    {
+    //        currentMaxPoints += data.Value;
+    //    }
+    //    if (currentMaxPoints > higgestScore)
+    //    {
+    //        higgestScore = currentMaxPoints;
+    //        bestUser = user.Key;
+    //    }
+    //}
+    //Console.WriteLine($"Best candidate is {bestUser} with total {higgestScore} points.");
+    var topCandidate = persons.OrderByDescending(persons => persons.Value.Sum(cource => cource.Value)).First();
+    Console.WriteLine($"Best candidate is {topCandidate.Key} with total {topCandidate.Value.Sum(sum => sum.Value)} points.");
 }
 
 bool CkeckCource(SortedDictionary<string, SortedDictionary<string, int>> persons, string name, string cource)
