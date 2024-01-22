@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - Exercise Streams, Files and Directories", "10 - Exercise Streams, Files and Directories\10 - Exercise Streams, Files and Directories.csproj", "{B475A5AC-7E44-456A-87F5-C65ECDC672DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Odd Lines", "01.Odd Lines\01.Odd Lines.csproj", "{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B475A5AC-7E44-456A-87F5-C65ECDC672DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B475A5AC-7E44-456A-87F5-C65ECDC672DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B475A5AC-7E44-456A-87F5-C65ECDC672DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B475A5AC-7E44-456A-87F5-C65ECDC672DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F4D0026-5263-424D-B53C-A7330BFC1DDE}
+	EndGlobalSection
+EndGlobal
