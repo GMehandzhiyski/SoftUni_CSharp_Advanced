@@ -25,14 +25,13 @@ while ((arguments = Console.ReadLine()) != "Lumpawaroo")
     if (command.Contains("|"))
     {
         string[] token = arguments
-            .Split(" | ", StringSplitOptions.RemoveEmptyEntries)
-            .ToArray();
+            .Split(" | ", StringSplitOptions.RemoveEmptyEntries);
 
         string side = token[0];
         string userName = token[1];
         if (!members.Values.Any(u => u.Contains(userName)))
         {
-            if (!members.ContainsKey(side))
+            if (!members.ContainsKey(side)) 
             {
                 members.Add(side, new SortedSet<string>());
             }
@@ -44,8 +43,7 @@ while ((arguments = Console.ReadLine()) != "Lumpawaroo")
     else if (command.Contains("->"))
     {
         string[] token = arguments
-            .Split(" -> ", StringSplitOptions.RemoveEmptyEntries)
-            .ToArray();
+            .Split(" -> ", StringSplitOptions.RemoveEmptyEntries);
         string userName = token[0];
         string side = token[1];
 
@@ -58,11 +56,14 @@ while ((arguments = Console.ReadLine()) != "Lumpawaroo")
             }
         }
 
-        if(members.ContainsKey(side))
+        if(!members.ContainsKey(side))
         {
-            members[side].Add(userName);
-            Console.WriteLine($"{userName} joins the {side} side!");
+            members.Add(side, new SortedSet<string>());
+            
         }
+
+        members[side].Add(userName);
+        Console.WriteLine($"{userName} joins the {side} side!");
     } 
     else
     {
