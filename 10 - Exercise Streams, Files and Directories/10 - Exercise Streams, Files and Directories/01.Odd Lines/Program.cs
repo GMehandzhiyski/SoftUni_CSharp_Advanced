@@ -7,7 +7,6 @@
             string inputFilePath = @"..\..\..\Files\input.txt";
             string outputFilePath = @"..\..\..\Files\output.txt";
 
-
             ExtractOddLines(inputFilePath, outputFilePath);
         }
 
@@ -28,9 +27,7 @@
                         }
                         writer.WriteLine(line);
                     }
-                
                 }
-            
             }
         }
     }
