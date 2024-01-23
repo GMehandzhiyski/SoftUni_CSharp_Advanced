@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Line Numbers", "02. Lin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Word Count", "03. Word Count\03. Word Count.csproj", "{F1473F06-04CF-42DF-95D3-E711C4E8A6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Merge Files", "04. 4. Merge Files\04. Merge Files.csproj", "{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Merge Files", "04. 4. Merge Files\04. Merge Files.csproj", "{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Extract Specia", "05. Extract Specia\05. Extract Specia.csproj", "{A1C2C7C6-5EA6-4882-8202-4633318215E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C2C7C6-5EA6-4882-8202-4633318215E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C2C7C6-5EA6-4882-8202-4633318215E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C2C7C6-5EA6-4882-8202-4633318215E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C2C7C6-5EA6-4882-8202-4633318215E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{BB9F40BE-A2B6-415F-8296-E0882AB2A24C} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
 		{F1473F06-04CF-42DF-95D3-E711C4E8A6B7} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
 		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
+		{A1C2C7C6-5EA6-4882-8202-4633318215E6} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F4D0026-5263-424D-B53C-A7330BFC1DDE}

@@ -1,5 +1,6 @@
 ﻿
 using System.Reflection.PortableExecutable;
+using System.Text.RegularExpressions;
 
 namespace WordCount
 {
@@ -20,43 +21,48 @@ namespace WordCount
             string currWord = String.Empty;
             List<string> wordsText = new();
 
-            using StreamReader readerWords = new (wordsFilePath);
-            {   
-                while ((currWord = readerWords.ReadLine()) != null)
-                {
-                    string[] token = currWord
-                        .Split(" ",StringSplitOptions.RemoveEmptyEntries)
-                        .ToArray();
-                    foreach (var currToken in token)
-                    {
-                        keyWords.Add(currToken, 0);
-                    }
+            //using StreamReader readerWords = new (wordsFilePath);
+            //{   
+            //    while ((currWord = readerWords.ReadLine()) != null)
+            //    {
+            //        string[] token = currWord
+            //            .Split(" ",StringSplitOptions.RemoveEmptyEntries)
+            //            .ToArray();
+            //        foreach (var currToken in token)
+            //        {
+            //            keyWords.Add(currToken, 0);
+            //        }
                    
-                }
-            }
+            //    }
+            //}
 
-            using StreamReader readerText = new(wordsFilePath);
+            using StreamReader readerText = new(textFilePath);
             {
-               
-                string argumets = string.Empty;
+                string textToLower = File.ReadAllText(textFilePath).ToString().ToLower();
+                var  words = File.ReadAllText(wordsFilePath)
+                                   .Split(new string[] { " "}, StringSplitOptions.RemoveEmptyEntries);
 
-                while ((argumets = readerText.ReadLine()) != null) 
+                foreach (var word in words)
                 {
-                    string[] toknen =  argumets
-                        .Split(" ",StringSplitOptions.RemoveEmptyEntries)
-                        .ToArray();
+                    string pattern = @$"\b{word}\b";
+                    Regex regex = new Regex(pattern);
 
+                    MatchCollection matchCollection = regex.Matches(textToLower);
 
+                    if (!keyWords.ContainsKey(word))
+                    {
+                        keyWords[word] = matchCollection.Count;
+                    }
                 }
-
-
-
-
+                
 
                 using StreamWriter writer = new(outputFilePath);
-                { 
-                    
-                
+                {
+                    foreach (var curWord in keyWords.OrderByDescending(c => c.Value))
+                    {
+                        writer.WriteLine($"{curWord.Key} - {curWord.Value}");
+                    }
+
                 }
             }
         }
