@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - Exercise Streams, Files and Directories", "10 - Exercise Streams, Files and Directories\10 - Exercise Streams, Files and Directories.csproj", "{B475A5AC-7E44-456A-87F5-C65ECDC672DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 - Exercise Streams, Files and Directories", "10 - Exercise Streams, Files and Directories\10 - Exercise Streams, Files and Directories.csproj", "{B475A5AC-7E44-456A-87F5-C65ECDC672DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Odd Lines", "01.Odd Lines\01.Odd Lines.csproj", "{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Odd Lines", "01.Odd Lines\01.Odd Lines.csproj", "{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Line Numbers", "02. Line Numbers\02. Line Numbers.csproj", "{BB9F40BE-A2B6-415F-8296-E0882AB2A24C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Line Numbers", "02. Line Numbers\02. Line Numbers.csproj", "{BB9F40BE-A2B6-415F-8296-E0882AB2A24C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Word Count", "03. Word Count\03. Word Count.csproj", "{F1473F06-04CF-42DF-95D3-E711C4E8A6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Merge Files", "04. 4. Merge Files\04. Merge Files.csproj", "{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{BB9F40BE-A2B6-415F-8296-E0882AB2A24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB9F40BE-A2B6-415F-8296-E0882AB2A24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB9F40BE-A2B6-415F-8296-E0882AB2A24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1473F06-04CF-42DF-95D3-E711C4E8A6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1473F06-04CF-42DF-95D3-E711C4E8A6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1473F06-04CF-42DF-95D3-E711C4E8A6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1473F06-04CF-42DF-95D3-E711C4E8A6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +48,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6665129E-B6B7-4DFE-87DF-1E5ED9588B8A} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
 		{BB9F40BE-A2B6-415F-8296-E0882AB2A24C} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
+		{F1473F06-04CF-42DF-95D3-E711C4E8A6B7} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
+		{C79E5D1E-CF66-4150-91C4-BB23C2C166DA} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F4D0026-5263-424D-B53C-A7330BFC1DDE}
