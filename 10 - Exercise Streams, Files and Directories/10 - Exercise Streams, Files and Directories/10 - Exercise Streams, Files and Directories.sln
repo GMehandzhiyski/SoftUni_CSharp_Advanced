@@ -25,7 +25,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{AC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Even Lines", "01. Even Lines\01. Even Lines.csproj", "{21619E39-F7EA-42F0-BD8E-5050E1EF1893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.LineNumbersEx", "02.LineNumbersEx\02.LineNumbersEx.csproj", "{C429AFE1-ABDA-4683-9BDB-AAA2BD0FE250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.LineNumbersEx", "02.LineNumbersEx\02.LineNumbersEx.csproj", "{C429AFE1-ABDA-4683-9BDB-AAA2BD0FE250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CopyBinaryFile", "03.CopyBinaryFile\03.CopyBinaryFile.csproj", "{0D135C81-27B5-4476-851D-CC3EBF4C8988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{C429AFE1-ABDA-4683-9BDB-AAA2BD0FE250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C429AFE1-ABDA-4683-9BDB-AAA2BD0FE250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C429AFE1-ABDA-4683-9BDB-AAA2BD0FE250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D135C81-27B5-4476-851D-CC3EBF4C8988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D135C81-27B5-4476-851D-CC3EBF4C8988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D135C81-27B5-4476-851D-CC3EBF4C8988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D135C81-27B5-4476-851D-CC3EBF4C8988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{EB1BFEEB-4E7A-418C-931A-30149F087ABD} = {9C4C0271-A399-4B0F-9D7A-7340EB17C8A0}
 		{21619E39-F7EA-42F0-BD8E-5050E1EF1893} = {ACC9DF83-90F7-4957-B8E0-EBA6C54B0C0A}
 		{C429AFE1-ABDA-4683-9BDB-AAA2BD0FE250} = {ACC9DF83-90F7-4957-B8E0-EBA6C54B0C0A}
+		{0D135C81-27B5-4476-851D-CC3EBF4C8988} = {ACC9DF83-90F7-4957-B8E0-EBA6C54B0C0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F4D0026-5263-424D-B53C-A7330BFC1DDE}
