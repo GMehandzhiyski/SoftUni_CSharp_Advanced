@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.DirectoryTraver", "04.Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CopyDirectory", "05.CopyDirectory\05.CopyDirectory.csproj", "{1CF2F938-313F-46E2-90C3-8CC0614C5CE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ZipAndExtracts", "06.ZipAndExtracts\06.ZipAndExtracts.csproj", "{F044B583-0032-4928-BBC4-6B5BF0D55945}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{1CF2F938-313F-46E2-90C3-8CC0614C5CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF2F938-313F-46E2-90C3-8CC0614C5CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF2F938-313F-46E2-90C3-8CC0614C5CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F044B583-0032-4928-BBC4-6B5BF0D55945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F044B583-0032-4928-BBC4-6B5BF0D55945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F044B583-0032-4928-BBC4-6B5BF0D55945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F044B583-0032-4928-BBC4-6B5BF0D55945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{0D135C81-27B5-4476-851D-CC3EBF4C8988} = {ACC9DF83-90F7-4957-B8E0-EBA6C54B0C0A}
 		{3B3D72E0-1C10-4FA2-91EE-C30CFC5121C8} = {ACC9DF83-90F7-4957-B8E0-EBA6C54B0C0A}
 		{1CF2F938-313F-46E2-90C3-8CC0614C5CE7} = {ACC9DF83-90F7-4957-B8E0-EBA6C54B0C0A}
+		{F044B583-0032-4928-BBC4-6B5BF0D55945} = {ACC9DF83-90F7-4957-B8E0-EBA6C54B0C0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F4D0026-5263-424D-B53C-A7330BFC1DDE}
