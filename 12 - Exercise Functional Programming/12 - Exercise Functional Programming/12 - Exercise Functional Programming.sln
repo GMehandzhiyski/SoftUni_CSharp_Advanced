@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{A5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ActionPoint", "01.ActionPoint\01.ActionPoint.csproj", "{8F166EF1-63B4-49C9-8C9E-08E2111DDE26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.KnightsOfHonor", "02.KnightsOfHonor\02.KnightsOfHonor.csproj", "{5DD356F1-8945-47DE-BCA4-1A77CF2BCE9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{8F166EF1-63B4-49C9-8C9E-08E2111DDE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F166EF1-63B4-49C9-8C9E-08E2111DDE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F166EF1-63B4-49C9-8C9E-08E2111DDE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD356F1-8945-47DE-BCA4-1A77CF2BCE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD356F1-8945-47DE-BCA4-1A77CF2BCE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD356F1-8945-47DE-BCA4-1A77CF2BCE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD356F1-8945-47DE-BCA4-1A77CF2BCE9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{F01CD103-E834-43D0-9EBA-ECE51F8E5777} = {3511BF59-5FB0-4C00-9449-BE415AA5DBB7}
 		{53CFD97D-B898-4184-A09A-D8CBF366CA35} = {3511BF59-5FB0-4C00-9449-BE415AA5DBB7}
 		{8F166EF1-63B4-49C9-8C9E-08E2111DDE26} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
+		{5DD356F1-8945-47DE-BCA4-1A77CF2BCE9D} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C21E3A1-D8BE-441D-8B21-39605FF8C812}
