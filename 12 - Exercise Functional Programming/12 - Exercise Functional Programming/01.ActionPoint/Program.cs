@@ -4,10 +4,12 @@ string[] inputNames = Console.ReadLine()
     .ToArray();
 
 
-Action<string> names = names =>
+Action<string[]> names = inputNames =>
 {
-    foreach (var name in names)
+    foreach (var name in inputNames)
     {
         Console.WriteLine(name);
     }
 };
+
+names(inputNames);
