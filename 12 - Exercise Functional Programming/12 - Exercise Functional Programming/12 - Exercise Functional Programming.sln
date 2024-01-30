@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ReverseAndExclude", "06.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.PredicateForNames", "07.PredicateForNames\07.PredicateForNames.csproj", "{45220D58-ECF3-4EF6-B833-E4FBD345D590}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.ListOfPredicates", "08.ListOfPredicates\08.ListOfPredicates.csproj", "{62A05891-A247-4CF0-8B0E-0156C1B74832}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{45220D58-ECF3-4EF6-B833-E4FBD345D590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45220D58-ECF3-4EF6-B833-E4FBD345D590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45220D58-ECF3-4EF6-B833-E4FBD345D590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A05891-A247-4CF0-8B0E-0156C1B74832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A05891-A247-4CF0-8B0E-0156C1B74832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A05891-A247-4CF0-8B0E-0156C1B74832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A05891-A247-4CF0-8B0E-0156C1B74832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{2740B087-872D-4DAC-B5EB-27404A366277} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
 		{9C78B15F-6044-422D-A10B-3BB1E852BA19} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
 		{45220D58-ECF3-4EF6-B833-E4FBD345D590} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
+		{62A05891-A247-4CF0-8B0E-0156C1B74832} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C21E3A1-D8BE-441D-8B21-39605FF8C812}
