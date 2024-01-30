@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.ListOfPredicates", "08.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PredicateParty!", "09.PredicateParty!\09.PredicateParty!.csproj", "{903AEA5E-2BCC-4D7E-AC95-FABCF3B4ACF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.ThePartyReservationFilterModule", "10.ThePartyReservationFilterModule\10.ThePartyReservationFilterModule.csproj", "{9AC99B5E-E561-45B0-9E0D-AF3B3B80BD37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{903AEA5E-2BCC-4D7E-AC95-FABCF3B4ACF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903AEA5E-2BCC-4D7E-AC95-FABCF3B4ACF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903AEA5E-2BCC-4D7E-AC95-FABCF3B4ACF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC99B5E-E561-45B0-9E0D-AF3B3B80BD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC99B5E-E561-45B0-9E0D-AF3B3B80BD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC99B5E-E561-45B0-9E0D-AF3B3B80BD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC99B5E-E561-45B0-9E0D-AF3B3B80BD37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +128,7 @@ Global
 		{45220D58-ECF3-4EF6-B833-E4FBD345D590} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
 		{62A05891-A247-4CF0-8B0E-0156C1B74832} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
 		{903AEA5E-2BCC-4D7E-AC95-FABCF3B4ACF6} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
+		{9AC99B5E-E561-45B0-9E0D-AF3B3B80BD37} = {A57A2181-A257-4DD6-9613-34B97CEDA102}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C21E3A1-D8BE-441D-8B21-39605FF8C812}
