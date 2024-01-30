@@ -25,8 +25,10 @@ Func<List<int>, HashSet<int>, List<int>> foundNumbers = (finalList, inputDivider
            
     //    }
     //}
+
     finalList = finalList.Where(currNumber =>
                    inputDivider.All(currDivider => currNumber % currDivider == 0)).ToList();
+
     return finalList;
 };
 
