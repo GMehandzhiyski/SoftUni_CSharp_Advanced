@@ -31,23 +31,6 @@ namespace DefiningClasses
 
             Console.WriteLine($"{oldest.Name} {oldest.Age}");
 
-
-           // List<Person> list = new List<Person>(); 
-           // //Person people = new ();
-
-           // //people.Name = "gosho";
-           //// people.Age = 1;
-
-           // Person people = new Person("ivam", 1);
-           // list.Add(people);  
-           
-
-           // Console.WriteLine($"{people.Name} {people.Age}");
-           // people.Name = "Ivam";
-           // people.Age = 2;
-
-           // Console.WriteLine($"{people.Name} {people.Age}");
-
             
         }
 
