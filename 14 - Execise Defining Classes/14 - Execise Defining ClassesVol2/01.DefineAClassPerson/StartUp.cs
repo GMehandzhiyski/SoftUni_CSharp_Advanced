@@ -16,7 +16,7 @@ namespace DefiningClasses
             //people.Name = "gosho";
            // people.Age = 1;
 
-            Person people = new Person("ivam", 1);
+            Person people = new Person("ivan", 1);
             list.Add(people);  
            
 
