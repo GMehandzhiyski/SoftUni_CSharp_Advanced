@@ -29,7 +29,7 @@ namespace DefiningClasses
 
             //Family  family = new Family();
 
-            foreach (var currPerson in listOfPeople.OrderByDescending(p => p.Name))
+            foreach (var currPerson in listOfPeople.OrderBy(p => p.Name))
             {
                 if (currPerson.Age > 30)
                 {
