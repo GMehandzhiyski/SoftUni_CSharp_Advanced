@@ -42,7 +42,6 @@ namespace DefiningClasses
 
                Car carDriving = cars
                     .Where(x => x.Model == carModel)
-                    .ToList()
                     .First();
 
                 bool isCarMove;
