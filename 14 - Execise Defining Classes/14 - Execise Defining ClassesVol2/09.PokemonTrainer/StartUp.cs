@@ -11,85 +11,62 @@ namespace DefiningClasses
     {
         static void Main(string[] args)
         {
-            List<Engine> engines = new();
-            List<Car> cars = new();
-
-            int numberEngines = int.Parse(Console.ReadLine());
-            for (int i = 0; i < numberEngines; i++)
+            List<Trainers> trainerList = new(); 
+            string argumet = string.Empty;
+            while ((argumet = Console.ReadLine()) != "Tournament")
             {
-                string[] engineIn = Console.ReadLine()
+                string[] tokens = argumet
                     .Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                string model = engineIn[0];
-                int power = int.Parse(engineIn[1]);
-                string displacement = "n/a";
-                string efficiency = "n/a";
-                bool containsNonDigits;
 
-                if (engineIn.Length == 3
-                    && (containsNonDigits = engineIn[2].Any(ch => !char.IsDigit(ch))))
-                {
-                    efficiency = engineIn[2];
-                }
-                else if (engineIn.Length == 3)
-                {
-                    displacement = engineIn[2];
-                }
-                else if (engineIn.Length == 4)
-                {
-                    displacement = engineIn[2];
-                    efficiency = engineIn[3];
-                }
+                string trainerName = tokens[0];
+                string pokemonName = tokens[1];
+                string pokemonElement = tokens[2];
+                int pokemonHealth = int.Parse(tokens[3]);
 
-                Engine engine = new Engine(model, power, displacement, efficiency);
-                engines.Add(engine);
+                Pokemon newPokemon = new Pokemon(pokemonName, pokemonElement, pokemonHealth);
+
+                if (!trainerList
+                    .Any(t => t.Name == trainerName))
+                {
+                    Trainers trainers = new Trainers(trainerName);
+                    trainers.Pokemons.Add(newPokemon);
+                    trainerList.Add(trainers);
+                }
+                else 
+                {
+                    Trainers currTrainer = trainerList
+                                           .Where(t => t.Name == trainerName).FirstOrDefault();
+                    currTrainer.Pokemons.Add(newPokemon);
+                }
             }
 
-            int numberCars = int.Parse(Console.ReadLine());
-            for (int i = 0; i < numberCars; i++)
+            while ((argumet = Console.ReadLine()) != "End")
             {
-                string[] carIn = Console.ReadLine()
-                  .Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                string model = carIn[0];
-                string engine = carIn[1];
-                string weight = "n/a";
-                string color = "n/a";
-                bool containsNonDigits;
+                string currElement = argumet;
 
-                if (carIn.Length == 3
-                    && (containsNonDigits = carIn[2].Any(ch => !char.IsDigit(ch))))
+                foreach (var currTrainer in trainerList)
                 {
-                    color = carIn[2];
-                }
-                else if (carIn.Length == 3)
-                {
-                    weight = carIn[2];
-                }
-                else if(carIn.Length == 4)
-                {
-                    weight = carIn[2];
-                    color = carIn[3];
-                }
-
-                Car car = new Car(model, engine, weight, color);
-                cars.Add(car);
-            }
-
-            foreach (var car in cars)
-            {
-                Console.WriteLine($"{car.Model}:");
-                Console.WriteLine($"  {car.Engine}:");
-                foreach (var engine in engines)
-                {
-                    if (engine.Model == car.Engine)
+                    if (currTrainer.Pokemons
+                                    .Any(p => p.Element == currElement))
                     {
-                        //Console.WriteLine($"    {engine.Model}");
-                        Console.WriteLine($"    Power: {engine.Power}");
-                        Console.WriteLine($"    Displacement: {engine.Displacement}");    
-                        Console.WriteLine($"    Efficiency: {engine.Efficiency}");
+                        currTrainer.Badges += 1;
                     }
+                    else
+                    {
+                        foreach (var pokemon in currTrainer.Pokemons)
+                        {
+                            pokemon.Health -= 10;
+                        }
+
+                        currTrainer.Pokemons.RemoveAll(p => p.Health <= 0);
+                    }
+
                 }
-                Console.WriteLine($"  Weight: {car.Weight}");
-                Console.WriteLine($"  Color: {car.Color}");
+            }
+
+            foreach (var currTrainer in trainerList.OrderByDescending(c => c.Badges))
+            {
+                Console.WriteLine($"{currTrainer.Name} {currTrainer.Badges} {currTrainer.Pokemons.Count}");
             }
         }
 

@@ -3,28 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace DefiningClasses
 {
 
-    internal class Car
-	{
+    internal class Trainers
+    {
 
-        public Car(string model, string engine, string weight, string color)
+        private string name;
+        private int badges;
+        private List<Pokemon> pokemons = new List<Pokemon>();
+        public Trainers()
         {
-            Model = model;
-            Engine = engine;
-            Weight = weight;
-            Color = color;
+            Pokemons = new List<Pokemon>();
+        }
+        public Trainers(string name)
+        {
+            Name = name;
+            Badges = 0;
+            Pokemons = new List<Pokemon>();
+        }
+        
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public int Badges
+        {
+            get { return badges; }
+            set { badges = value; }
         }
 
-        public string Model { get; set; }
-        public string Engine { get; set; }
-        public string Weight { get; set; }
-        public string Color { get; set; }
-
-
-
-
-    }
+        public List<Pokemon> Pokemons
+		{
+			get { return pokemons; }
+			set { pokemons = value; }
+		}
+	}
 }

@@ -6,47 +6,41 @@ using System.Threading.Tasks;
 
 namespace DefiningClasses
 {
-    internal class Engine
+    internal class Pokemon
     {
+		private string name;
+		private string element;
+		private int health;
 
-		private string model;
-		private int power;
-		private string displacement;
-		private string efficiency;
-
-        public Engine(string model, int power, string displacement, string efficiency)
+        public Pokemon(string name, string element, int health)
         {
-			Model = model;
-			Power = power;
-            Displacement = displacement;
-            Efficiency =  efficiency;
-    }
+            Name = name;
+            Element = element;
+            Health = health;
+        }
 
-        public string Efficiency
-		{
-			get { return  efficiency; }
-			set {  efficiency = value; }
-		}
-
-
-		public string Displacement
+        public string Name
         {
-			get { return displacement; }
-			set { displacement = value; }
-		}
-
-
-		public int Power
+            get { return name; }
+            set { name = value; }
+        }
+        public string Element
+        {
+            get { return element; }
+            set { element = value; }
+        }
+        public int Health
 		{
-			get { return power; }
-			set { power = value; }
+			get { return health; }
+			set { health = value; }
 		}
 
-		public string Model
-		{
-			get { return model; }
-			set { model = value; }
-		}
+
+	
+
+		
+
+
 
 	}
 }
