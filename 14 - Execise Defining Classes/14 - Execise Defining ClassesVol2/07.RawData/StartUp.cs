@@ -55,7 +55,7 @@ namespace DefiningClasses
             {
                 finishString = cars
                     .Where(c => c.Cargo.Type == "fragile" 
-                        && c.Tires.Any(t => t.Pressure <1))
+                        && c.Tires.Any(t => t.Pressure < 1))
                         .Select(c => c.Model)
                         .ToArray();
 
@@ -71,6 +71,9 @@ namespace DefiningClasses
             }
 
             Console.WriteLine(string.Join(Environment.NewLine,finishString));
+
+
+
         }
     }
 }
