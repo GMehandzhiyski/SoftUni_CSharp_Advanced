@@ -14,14 +14,15 @@ namespace DefiningClasses
             person.Name = "Peter";
             person.Age = 20;
             persons.Add(person);
-            Console.WriteLine();
             person.Name = "Geroge";
             person.Age = 18;
+            Console.WriteLine($"{person.Name} {person.Age}");
             persons.Add(person);
             person.Name = "Jose";
             person.Age = 43;
+            Console.WriteLine($"{person.Name} {person.Age}");
             persons.Add(person);
-
+           
         }
     }
 }
