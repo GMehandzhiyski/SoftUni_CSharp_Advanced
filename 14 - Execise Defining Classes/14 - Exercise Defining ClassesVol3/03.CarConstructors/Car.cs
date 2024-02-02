@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
+
 
 namespace CarManufacturer
 {
@@ -13,6 +10,30 @@ namespace CarManufacturer
         private int year;
         private double fuelQuantity;
         private double fuelConsumption;
+
+        public Car()
+        {
+            Make = "VW";
+            Model = "Golf";
+            Year = 2025;
+            FuelQuantity = 200;
+            FuelConsumption = 10;
+
+        }
+
+        public Car(string make, string model, int year)
+            :this()
+        {
+            Make = make;
+            Model = model;
+            Year = year;
+        }
+        public Car(string make, string model, int year, double fuelQuantity, double fuelConsumption)
+            :this( make, model, year)
+        {
+            FuelQuantity = fuelQuantity;
+            FuelConsumption = fuelConsumption;
+        }
 
         public string Make
         {
@@ -37,24 +58,24 @@ namespace CarManufacturer
         }
         public double FuelConsumption
         {
-            get { return fuelConsumption;}
-            set {fuelConsumption= value; }
+            get { return fuelConsumption; }
+            set { fuelConsumption = value; }
         }
 
-        public void Drive(int distance) 
+        public void Drive(int distance)
         {
-            if (fuelQuantity - (distance * fuelConsumption) > 0)
+            if ((fuelQuantity - (distance * fuelConsumption)) > 0)
             {
-                fuelQuantity -= (distance * fuelConsumption);   
+                fuelQuantity -= (distance * fuelConsumption);
             }
-            else 
+            else
             {
                 Console.WriteLine("Not enough fuel to perform this trip!");
             }
         }
-        public string WhoAmI() 
+        public string WhoAmI()
         {
-            StringBuilder sb = new StringBuilder(); 
+            StringBuilder sb = new();
             sb.Append($"Make: {Make}");
             sb.Append($"Model: {Model}");
             sb.Append($"Year: {Year}");
@@ -62,10 +83,6 @@ namespace CarManufacturer
 
             return sb.ToString().TrimEnd();
         }
-
-        
-
-
     }
 }
 
