@@ -26,10 +26,13 @@ namespace DefiningClasses
 			persons.Add(members);
 		}
 
-		public Person GetOldestMember()
+		public Person[] GetMember()
 		{
-			Person oldestPerson = persons
-				.OrderByDescending(p => p.Age).FirstOrDefault();
+			Person[] oldestPerson = persons
+                .Where(p => p.Age > 30)
+                .OrderByDescending(p => p.Name)
+				.Select(p => p)
+				.ToArray();
 			return oldestPerson;
 		}
 	}
