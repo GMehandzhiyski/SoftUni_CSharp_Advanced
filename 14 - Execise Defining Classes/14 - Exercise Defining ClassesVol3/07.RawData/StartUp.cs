@@ -53,9 +53,9 @@ namespace DefiningClasses
                 string fragile = "fragile";
 
                 Car[] currCar = cars
-                    .Where(c => c.Cargo.Type == fragile
-                    && c.Tires.Any(p => p.Pressure < 1))
-                    .ToArray();
+                                .Where(c => c.Cargo.Type == fragile
+                                && c.Tires.Any(p => p.Pressure < 1))
+                                .ToArray();
 
                 PrintCar(currCar);
             }
@@ -64,9 +64,9 @@ namespace DefiningClasses
                 string flammable = "flammable";
 
                 Car[] currCar = cars
-                    .Where(c => c.Cargo.Type == flammable
-                    && c.Engine.Power > 250)
-                    .ToArray();
+                                .Where(c => c.Cargo.Type == flammable
+                                && c.Engine.Power > 250)
+                                .ToArray();
 
                 PrintCar(currCar);
             }
