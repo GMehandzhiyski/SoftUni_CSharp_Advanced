@@ -3,25 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 - Exercise Defining ClassesVol3", "14 - Exercise Defining ClassesVol3\14 - Exercise Defining ClassesVol3.csproj", "{407A12DB-27AC-43C9-88DD-201202245465}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14 - Exercise Defining ClassesVol3", "14 - Exercise Defining ClassesVol3\14 - Exercise Defining ClassesVol3.csproj", "{407A12DB-27AC-43C9-88DD-201202245465}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{E9920267-EBBE-4F03-9C18-13A96F6991B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{43A84E13-444F-48BE-8267-698839BAA26B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Car", "01.Car\01.Car.csproj", "{A4F57BB2-8CD4-4B83-944A-E8DA283DE474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Car", "01.Car\01.Car.csproj", "{A4F57BB2-8CD4-4B83-944A-E8DA283DE474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CarExtension", "02.CarExtension\02.CarExtension.csproj", "{11B3BF1E-9D20-4301-80FA-5DEDA184896A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CarExtension", "02.CarExtension\02.CarExtension.csproj", "{11B3BF1E-9D20-4301-80FA-5DEDA184896A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CarConstructors", "03.CarConstructors\03.CarConstructors.csproj", "{52709E83-C787-4BAC-A068-84AFDBCE0A33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.CarConstructors", "03.CarConstructors\03.CarConstructors.csproj", "{52709E83-C787-4BAC-A068-84AFDBCE0A33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CarEngineAndTires", "04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{7D111EA5-5EA4-47F3-B275-8ECF9B50A198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.CarEngineAndTires", "04.CarEngineAndTires\04.CarEngineAndTires.csproj", "{7D111EA5-5EA4-47F3-B275-8ECF9B50A198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SpecialCars", "05.SpecialCars\05.SpecialCars.csproj", "{E228DEA3-C281-483F-85FE-A97CA5797093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.SpecialCars", "05.SpecialCars\05.SpecialCars.csproj", "{E228DEA3-C281-483F-85FE-A97CA5797093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DefineaClassPerson", "01.DefineaClassPerson\01.DefineaClassPerson.csproj", "{A556F9B9-D01D-4DE5-AA12-19A7687B66D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.DefineaClassPerson", "01.DefineaClassPerson\01.DefineaClassPerson.csproj", "{A556F9B9-D01D-4DE5-AA12-19A7687B66D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CreatingConstructors", "02.CreatingConstructors\02.CreatingConstructors.csproj", "{0E9594E5-AFA1-4A58-8AC5-39F38519AECF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CreatingConstructors", "02.CreatingConstructors\02.CreatingConstructors.csproj", "{0E9594E5-AFA1-4A58-8AC5-39F38519AECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.OldestFamilyMember", "03.OldestFamilyMember\03.OldestFamilyMember.csproj", "{E4753E23-E0E1-45AC-BA5C-2B2E30135D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{0E9594E5-AFA1-4A58-8AC5-39F38519AECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E9594E5-AFA1-4A58-8AC5-39F38519AECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E9594E5-AFA1-4A58-8AC5-39F38519AECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4753E23-E0E1-45AC-BA5C-2B2E30135D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4753E23-E0E1-45AC-BA5C-2B2E30135D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4753E23-E0E1-45AC-BA5C-2B2E30135D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4753E23-E0E1-45AC-BA5C-2B2E30135D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{E228DEA3-C281-483F-85FE-A97CA5797093} = {E9920267-EBBE-4F03-9C18-13A96F6991B9}
 		{A556F9B9-D01D-4DE5-AA12-19A7687B66D9} = {43A84E13-444F-48BE-8267-698839BAA26B}
 		{0E9594E5-AFA1-4A58-8AC5-39F38519AECF} = {43A84E13-444F-48BE-8267-698839BAA26B}
+		{E4753E23-E0E1-45AC-BA5C-2B2E30135D46} = {43A84E13-444F-48BE-8267-698839BAA26B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE4E2159-641B-4EC9-A366-14481DBD7E6D}
