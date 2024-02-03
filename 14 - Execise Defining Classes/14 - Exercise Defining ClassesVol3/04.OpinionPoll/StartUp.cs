@@ -26,9 +26,9 @@ namespace DefiningClasses
                 family.AddMember(person);
                
             }
+
             Person[] memberOver30 = family.GetMember();
-            // Console.WriteLine($"{oldestMember.Name} {oldestMember.Age}");
-        
+       
             foreach (var member in memberOver30.OrderBy(p => p.Name))
             {
                 Console.WriteLine($"{member.Name} - {member.Age}");

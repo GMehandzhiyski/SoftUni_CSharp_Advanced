@@ -28,12 +28,12 @@ namespace DefiningClasses
 
 		public Person[] GetMember()
 		{
-			Person[] oldestPerson = persons
+			Person[] finalPerson = persons
                 .Where(p => p.Age > 30)
                 .OrderByDescending(p => p.Name)
 				.Select(p => p)
 				.ToArray();
-			return oldestPerson;
+			return finalPerson;
 		}
 	}
 }
