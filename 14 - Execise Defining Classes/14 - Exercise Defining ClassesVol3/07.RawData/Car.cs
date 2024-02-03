@@ -9,21 +9,37 @@ namespace DefiningClasses
     public class Car
     {
 		private string model;
-		private double fuelAmount;
-		private double fuelConsumptionPerKilometer;
-		private double travelledDistance;
+		private Engine engine;
+		private Cargo cargo;
+		private Tire[] tires;
 
         public Car()
         {
-				
-        }
-        public Car(string model, double fuelAmount, double fuelConsumptionPerKilometer, double travelledDistance)
 			
+        }
+        public Car(string model,
+                int speed,
+                int power,
+                int weight,
+                string type,
+                double tire1pressure,
+                int tire1age,
+                double tire2pressure,
+                int tire2age,
+                double tire3pressure,
+                int tire3age,
+                double tire4pressure,
+                int tire4age)
         {
             Model = model;
-            FuelAmount = fuelAmount;
-            FuelConsumptionPerKilometer = fuelConsumptionPerKilometer;
-           
+            Engine = new(speed, power);
+            Cargo = new(weight, type);
+
+            Tires = new Tire[4];
+            Tires[0] = new(tire1pressure, tire1age);
+            Tires[1] = new(tire2pressure, tire2age);
+            Tires[2] = new(tire3pressure, tire3age);
+            Tires[3] = new(tire4pressure, tire4age);
         }
 
         public string Model
@@ -32,42 +48,23 @@ namespace DefiningClasses
 			set { model = value; }
 		}
 
-		public double FuelAmount
+		public Engine Engine
         {
-			get { return fuelAmount; }
-			set { fuelAmount = value; }
+			get { return engine; }
+			set { engine = value; }
 		}
 
-		public double FuelConsumptionPerKilometer
+		public Cargo Cargo
         {
-			get { return fuelConsumptionPerKilometer; }
-			set { fuelConsumptionPerKilometer = value; }
+			get { return cargo; }
+			set { cargo = value; }
 		}
 
-		public double TravelledDistance
+		public Tire[] Tires
         {
-			get { return travelledDistance; }
-			set { travelledDistance = value; }
+			get { return tires; }
+			set { tires = value; }
 		}
-
-		public void DriveCar(double amountOfKm)
-		{
-            double movingRange = amountOfKm * fuelConsumptionPerKilometer;
-            if (movingRange <= FuelAmount)
-            {
-                fuelAmount -= movingRange;
-                travelledDistance += amountOfKm;
-            }
-            else 
-			{
-                Console.WriteLine("Insufficient fuel for the drive");
-            }
-		
-		}
-
-
-
-
 
 	}
 }
