@@ -51,7 +51,7 @@ namespace DefiningClasses
 
             foreach (var car in cars)
             {
-                Console.WriteLine($"{car.Model} {car.FuelAmount} {car.TravelledDistance}");
+                Console.WriteLine($"{car.Model} {car.FuelAmount:f2} {car.TravelledDistance}");
             }
         }
     }
