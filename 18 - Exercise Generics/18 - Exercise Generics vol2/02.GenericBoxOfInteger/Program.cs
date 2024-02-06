@@ -11,8 +11,6 @@
             {
                 int item = int.Parse(Console.ReadLine());
 
-                  
-
                 box.Add(item);
             }
 
