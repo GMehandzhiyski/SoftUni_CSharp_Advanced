@@ -7,16 +7,15 @@ namespace GenericBoxOfString
         static void Main(string[] args)
         {
             int number = int.Parse(Console.ReadLine());
-            Box<string> box = new Box<string>();
-
+            Box<double> box = new Box<double>();
             for (int i = 0; i < number; i++)
             {
-                string item = (Console.ReadLine());
+                double item = double.Parse(Console.ReadLine());
+
                 box.Add(item);
             }
 
-            string element = (Console.ReadLine());
-
+            double element = double.Parse(Console.ReadLine());
             box.Copmare(element);
             Console.WriteLine(box.Count);    
         }   
