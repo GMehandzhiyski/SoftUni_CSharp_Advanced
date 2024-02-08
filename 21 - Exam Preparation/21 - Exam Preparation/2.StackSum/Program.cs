@@ -34,4 +34,4 @@ while ((arguments = Console.ReadLine().ToLower()) != "end")
         }
     }
 }
-Console.WriteLine(stack.Sum());
+Console.WriteLine($"Sum: {stack.Sum()}");

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21 - Exam Preparation", "21 - Exam Preparation\21 - Exam Preparation.csproj", "{DDFB87EB-4428-4932-9E51-64E6019D8B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21 - Exam Preparation", "21 - Exam Preparation\21 - Exam Preparation.csproj", "{DDFB87EB-4428-4932-9E51-64E6019D8B8D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StacksAndQueue", "StacksAndQueue", "{574805D8-65CD-44CA-AD0C-F3FA774761CE}"
 EndProject
@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{F018A49F-3F8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ReverseAString", "1.ReverseAString\1.ReverseAString.csproj", "{FFAB83C4-0C6D-4B5B-9AEF-1F26D5C58844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.ReverseAString", "1.ReverseAString\1.ReverseAString.csproj", "{FFAB83C4-0C6D-4B5B-9AEF-1F26D5C58844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.StackSum", "2.StackSum\2.StackSum.csproj", "{4A2097E3-F2BE-4DF5-8EA7-7772A80C7903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.StackSum", "2.StackSum\2.StackSum.csproj", "{4A2097E3-F2BE-4DF5-8EA7-7772A80C7903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. SimpleCalculator", "3. SimpleCalculator\3. SimpleCalculator.csproj", "{E84511A7-8CB9-4CB6-BD7D-5CEE6D9286C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4A2097E3-F2BE-4DF5-8EA7-7772A80C7903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A2097E3-F2BE-4DF5-8EA7-7772A80C7903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A2097E3-F2BE-4DF5-8EA7-7772A80C7903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84511A7-8CB9-4CB6-BD7D-5CEE6D9286C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84511A7-8CB9-4CB6-BD7D-5CEE6D9286C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84511A7-8CB9-4CB6-BD7D-5CEE6D9286C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84511A7-8CB9-4CB6-BD7D-5CEE6D9286C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 		{2A232186-ECD5-4F7B-BC69-78EFBA50EAD2} = {574805D8-65CD-44CA-AD0C-F3FA774761CE}
 		{FFAB83C4-0C6D-4B5B-9AEF-1F26D5C58844} = {F018A49F-3F8A-41CB-9DCD-94F3A9F5A941}
 		{4A2097E3-F2BE-4DF5-8EA7-7772A80C7903} = {F018A49F-3F8A-41CB-9DCD-94F3A9F5A941}
+		{E84511A7-8CB9-4CB6-BD7D-5CEE6D9286C3} = {F018A49F-3F8A-41CB-9DCD-94F3A9F5A941}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
