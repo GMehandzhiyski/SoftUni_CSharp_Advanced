@@ -3,11 +3,6 @@ string[] inputString = Console.ReadLine()
     .Split(" ",StringSplitOptions.RemoveEmptyEntries);
 
 
-
-
-
-
-
 Stack<string> stackNumber = new Stack<string>(inputString.Reverse());
 
 int reuslt = 0;
