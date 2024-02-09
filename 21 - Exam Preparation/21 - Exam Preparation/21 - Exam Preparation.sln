@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BasicStackOperations", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BasicQueueOperations", "02.BasicQueueOperations\02.BasicQueueOperations.csproj", "{AE2C8A60-6C8F-44D5-BF38-E117D0E94F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximumandMinimumElement", "03.MaximumandMinimumElement\03.MaximumandMinimumElement.csproj", "{9DF3E5E4-2E2C-41C1-8F06-7DD78A47637E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{AE2C8A60-6C8F-44D5-BF38-E117D0E94F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE2C8A60-6C8F-44D5-BF38-E117D0E94F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE2C8A60-6C8F-44D5-BF38-E117D0E94F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF3E5E4-2E2C-41C1-8F06-7DD78A47637E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF3E5E4-2E2C-41C1-8F06-7DD78A47637E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF3E5E4-2E2C-41C1-8F06-7DD78A47637E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF3E5E4-2E2C-41C1-8F06-7DD78A47637E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{7CDEB058-9FA6-4323-867A-7A9C55A1BA3F} = {F018A49F-3F8A-41CB-9DCD-94F3A9F5A941}
 		{039F725E-7704-44A6-BD23-E92269851A52} = {2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}
 		{AE2C8A60-6C8F-44D5-BF38-E117D0E94F40} = {2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}
+		{9DF3E5E4-2E2C-41C1-8F06-7DD78A47637E} = {2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
