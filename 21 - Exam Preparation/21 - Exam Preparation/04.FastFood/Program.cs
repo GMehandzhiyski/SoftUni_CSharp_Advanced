@@ -11,7 +11,7 @@ Queue<int> orders = new(inputOrdes);
 Console.WriteLine(orders.Max());
 if (orders.Sum() <= foodPerDay)
 {
-    Console.WriteLine("Order complete");
+    Console.WriteLine("Orders complete");
     return;
 }
 
@@ -36,4 +36,4 @@ while (orders.Any())
 {
     orderLeft += orders.Dequeue() + " ";
 }
-Console.WriteLine($"Order left: {orderLeft.TrimEnd(' ')}");
+Console.WriteLine($"Orders left: {orderLeft.TrimEnd(' ')}");
