@@ -33,15 +33,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BasicQueueOperations", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MaximumandMinimumElement", "03.MaximumandMinimumElement\03.MaximumandMinimumElement.csproj", "{9DF3E5E4-2E2C-41C1-8F06-7DD78A47637E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FastFood", "04.FastFood\04.FastFood.csproj", "{517C8919-942E-4A9C-8A36-A401447EEFDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.FastFood", "04.FastFood\04.FastFood.csproj", "{517C8919-942E-4A9C-8A36-A401447EEFDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FashionBoutique", "05.FashionBoutique\05.FashionBoutique.csproj", "{62852487-48EF-410E-8259-45DF1F1DC81C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.FashionBoutique", "05.FashionBoutique\05.FashionBoutique.csproj", "{62852487-48EF-410E-8259-45DF1F1DC81C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SongsQueue", "06.SongsQueue\06.SongsQueue.csproj", "{6EFF5FBB-C78B-451F-8EA3-781F1AABE0A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.SongsQueue", "06.SongsQueue\06.SongsQueue.csproj", "{6EFF5FBB-C78B-451F-8EA3-781F1AABE0A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.TruckTour", "07.TruckTour\07.TruckTour.csproj", "{5B354CC0-A345-473D-8D1C-B3A5318F8A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TruckTour", "07.TruckTour\07.TruckTour.csproj", "{5B354CC0-A345-473D-8D1C-B3A5318F8A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BalancedParenthesis", "08.BalancedParenthesis\08.BalancedParenthesis.csproj", "{FE5BB209-5980-4083-A8CF-8E5AAE9A937A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.BalancedParenthesis", "08.BalancedParenthesis\08.BalancedParenthesis.csproj", "{FE5BB209-5980-4083-A8CF-8E5AAE9A937A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SimpleTextEditor", "09.SimpleTextEditor\09.SimpleTextEditor.csproj", "{587139AE-5E83-478C-99AA-7EE07FAFE2C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multidimensional Arrays", "Multidimensional Arrays", "{03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SumMatrixElements", "01.SumMatrixElements\01.SumMatrixElements.csproj", "{6F76C305-371E-43BC-A725-7AE3059FF82E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumMatrixColumns", "02.SumMatrixColumns\02.SumMatrixColumns.csproj", "{F260B6D8-13DF-4598-846F-4F745271B7DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +125,18 @@ Global
 		{FE5BB209-5980-4083-A8CF-8E5AAE9A937A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE5BB209-5980-4083-A8CF-8E5AAE9A937A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE5BB209-5980-4083-A8CF-8E5AAE9A937A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587139AE-5E83-478C-99AA-7EE07FAFE2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587139AE-5E83-478C-99AA-7EE07FAFE2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587139AE-5E83-478C-99AA-7EE07FAFE2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587139AE-5E83-478C-99AA-7EE07FAFE2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F76C305-371E-43BC-A725-7AE3059FF82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F76C305-371E-43BC-A725-7AE3059FF82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F76C305-371E-43BC-A725-7AE3059FF82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F76C305-371E-43BC-A725-7AE3059FF82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F260B6D8-13DF-4598-846F-4F745271B7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F260B6D8-13DF-4598-846F-4F745271B7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F260B6D8-13DF-4598-846F-4F745271B7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F260B6D8-13DF-4598-846F-4F745271B7DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +160,9 @@ Global
 		{6EFF5FBB-C78B-451F-8EA3-781F1AABE0A5} = {2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}
 		{5B354CC0-A345-473D-8D1C-B3A5318F8A19} = {2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}
 		{FE5BB209-5980-4083-A8CF-8E5AAE9A937A} = {2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}
+		{587139AE-5E83-478C-99AA-7EE07FAFE2C4} = {2A232186-ECD5-4F7B-BC69-78EFBA50EAD2}
+		{6F76C305-371E-43BC-A725-7AE3059FF82E} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
+		{F260B6D8-13DF-4598-846F-4F745271B7DD} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
