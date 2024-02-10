@@ -65,6 +65,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{84
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DiagonalDifference", "01.DiagonalDifference\01.DiagonalDifference.csproj", "{8830FAF5-96AB-4BFA-8E45-D7A5AEC94467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SquaresInMatrix", "02.SquaresInMatrix\02.SquaresInMatrix.csproj", "{F353FBF8-BBF4-4681-9B54-85D4EAD991EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{8830FAF5-96AB-4BFA-8E45-D7A5AEC94467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8830FAF5-96AB-4BFA-8E45-D7A5AEC94467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8830FAF5-96AB-4BFA-8E45-D7A5AEC94467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F353FBF8-BBF4-4681-9B54-85D4EAD991EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F353FBF8-BBF4-4681-9B54-85D4EAD991EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F353FBF8-BBF4-4681-9B54-85D4EAD991EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F353FBF8-BBF4-4681-9B54-85D4EAD991EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +210,7 @@ Global
 		{10569B74-1FF9-4FB3-9A27-F2AC10D0C6CF} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
 		{843371E8-179A-48E5-8489-3CE8710A3E3F} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
 		{8830FAF5-96AB-4BFA-8E45-D7A5AEC94467} = {843371E8-179A-48E5-8489-3CE8710A3E3F}
+		{F353FBF8-BBF4-4681-9B54-85D4EAD991EA} = {843371E8-179A-48E5-8489-3CE8710A3E3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
