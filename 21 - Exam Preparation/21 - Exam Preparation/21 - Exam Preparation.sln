@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumMatrixColumns", "02.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PrimaryDiagonal", "03.PrimaryDiagonal\03.PrimaryDiagonal.csproj", "{DD44E559-8759-4F57-A3CC-33FEBAB4B173}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SymbolInMatrix", "04.SymbolInMatrix\04.SymbolInMatrix.csproj", "{8DAD3B8B-10FC-44DA-97CC-0FFDDFFEB813}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{DD44E559-8759-4F57-A3CC-33FEBAB4B173}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD44E559-8759-4F57-A3CC-33FEBAB4B173}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD44E559-8759-4F57-A3CC-33FEBAB4B173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAD3B8B-10FC-44DA-97CC-0FFDDFFEB813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAD3B8B-10FC-44DA-97CC-0FFDDFFEB813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAD3B8B-10FC-44DA-97CC-0FFDDFFEB813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAD3B8B-10FC-44DA-97CC-0FFDDFFEB813}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +176,7 @@ Global
 		{6F76C305-371E-43BC-A725-7AE3059FF82E} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
 		{F260B6D8-13DF-4598-846F-4F745271B7DD} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
 		{DD44E559-8759-4F57-A3CC-33FEBAB4B173} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
+		{8DAD3B8B-10FC-44DA-97CC-0FFDDFFEB813} = {03DD2007-2752-4CD3-8DEB-D7BE6605C1F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
