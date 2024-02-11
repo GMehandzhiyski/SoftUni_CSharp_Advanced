@@ -71,7 +71,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MaximalSum", "03.Maximal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MatrixShuffling", "04.MatrixShuffling\04.MatrixShuffling.csproj", "{B693F36B-1B5F-498A-8B09-FFBCC146F112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.SnakeMoves", "5.SnakeMoves\5.SnakeMoves.csproj", "{CB5BAAF7-BEEA-4135-ACE8-F6053DCEB758}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SnakeMoves", "5.SnakeMoves\05.SnakeMoves.csproj", "{CB5BAAF7-BEEA-4135-ACE8-F6053DCEB758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.JaggedArrayManipulator", "06.JaggedArrayManipulator\06.JaggedArrayManipulator.csproj", "{4BB8D2E5-A3FB-437B-87FF-D985D8941B8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{CB5BAAF7-BEEA-4135-ACE8-F6053DCEB758}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB5BAAF7-BEEA-4135-ACE8-F6053DCEB758}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB5BAAF7-BEEA-4135-ACE8-F6053DCEB758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB8D2E5-A3FB-437B-87FF-D985D8941B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB8D2E5-A3FB-437B-87FF-D985D8941B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB8D2E5-A3FB-437B-87FF-D985D8941B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB8D2E5-A3FB-437B-87FF-D985D8941B8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -232,6 +238,7 @@ Global
 		{047E51C0-206C-45D6-A853-CC5A1E64D88D} = {843371E8-179A-48E5-8489-3CE8710A3E3F}
 		{B693F36B-1B5F-498A-8B09-FFBCC146F112} = {843371E8-179A-48E5-8489-3CE8710A3E3F}
 		{CB5BAAF7-BEEA-4135-ACE8-F6053DCEB758} = {843371E8-179A-48E5-8489-3CE8710A3E3F}
+		{4BB8D2E5-A3FB-437B-87FF-D985D8941B8A} = {843371E8-179A-48E5-8489-3CE8710A3E3F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
