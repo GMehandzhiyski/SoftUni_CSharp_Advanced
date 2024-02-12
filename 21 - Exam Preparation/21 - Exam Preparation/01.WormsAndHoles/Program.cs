@@ -29,13 +29,12 @@ namespace _01.WormsAndHoles
             while (worms.Count > 0
                 && holes.Count > 0) 
             {
-              int  currWormValue = worms.Pop();
+              int currWormValue = worms.Pop();
               int currHoleValue = holes.Dequeue();
 
                 if (currWormValue == currHoleValue)
                 {
                     matches++;
-
                 }
                 else 
                 {   
@@ -61,16 +60,18 @@ namespace _01.WormsAndHoles
                 Console.WriteLine("There are no matches.");
             }
 
+
             // second line
-            if (worms.Count == 0)
+            if (worms.Count == 0
+                && !wormsNotFit)
             {
                 Console.WriteLine("Every worm found a suitable hole!");
 
             }
             else if (wormsNotFit
                     && worms.Count == 0)
-            { 
-            
+            {
+                Console.WriteLine("Worms left: none");
             }
             else
             {
@@ -83,8 +84,8 @@ namespace _01.WormsAndHoles
                 Console.WriteLine($"Worms left: {sb.ToString().TrimEnd(',', ' ')}");
             }
 
-            // third line
 
+            // third line
             if (!holes.Any())
             {
                 Console.WriteLine("Holes left: none");
