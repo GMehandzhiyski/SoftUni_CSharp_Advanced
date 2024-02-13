@@ -44,8 +44,8 @@ W--W
             {
                 if (argumets == "up")
                 {
-                    nextRow = playerRow;
-                    nextCol = playerCol + 1;
+                    nextRow = playerRow - 1;
+                    nextCol = playerCol;
 
                     bool isIndexValid = CheckIndex(board, nextRow, nextCol);
                     if (!isIndexValid)
@@ -57,7 +57,7 @@ W--W
                     amount = CalculateAmount(board, nextRow, nextCol, amount);
 
                     board[playerRow, playerCol] = "-";
-                    board[playerRow, playerCol + 1] = "G";
+                    board[playerRow - 1, playerCol] = "G";
                     playerRow = nextRow;
                     playerCol = nextCol;
 
@@ -133,8 +133,8 @@ W--W
                     PrintBoard(board);
                     Environment.Exit(0);
                 }
-               //Console.WriteLine();
-               //PrintBoard(board);
+               Console.WriteLine();
+               PrintBoard(board);
             }
 
             Console.WriteLine($"End of the game. Total amount: {amount}$");
