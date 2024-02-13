@@ -99,7 +99,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam13December2023", "Exam1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.WormsAndHoles", "01.WormsAndHoles\01.WormsAndHoles.csproj", "{CD1BC687-A33C-4329-9BEA-3AD2D691B971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TheGambler", "02.TheGambler\02.TheGambler.csproj", "{A508501A-E3B7-4F98-BEFD-37BF6E1B345D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.TheGambler", "02.TheGambler\02.TheGambler.csproj", "{A508501A-E3B7-4F98-BEFD-37BF6E1B345D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceriesManagement", "03.GroceriesManagement\GroceriesManagement.csproj", "{3B8660BC-65EF-4C8D-8B00-8A89076472AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -259,6 +261,10 @@ Global
 		{A508501A-E3B7-4F98-BEFD-37BF6E1B345D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A508501A-E3B7-4F98-BEFD-37BF6E1B345D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A508501A-E3B7-4F98-BEFD-37BF6E1B345D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8660BC-65EF-4C8D-8B00-8A89076472AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8660BC-65EF-4C8D-8B00-8A89076472AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8660BC-65EF-4C8D-8B00-8A89076472AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8660BC-65EF-4C8D-8B00-8A89076472AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -308,6 +314,7 @@ Global
 		{90E7BFD6-3D3B-4EF5-B646-A428B3E5AC5D} = {52449E4E-6BFA-437F-9F15-B6C82B2AA0F7}
 		{CD1BC687-A33C-4329-9BEA-3AD2D691B971} = {90E7BFD6-3D3B-4EF5-B646-A428B3E5AC5D}
 		{A508501A-E3B7-4F98-BEFD-37BF6E1B345D} = {90E7BFD6-3D3B-4EF5-B646-A428B3E5AC5D}
+		{3B8660BC-65EF-4C8D-8B00-8A89076472AF} = {90E7BFD6-3D3B-4EF5-B646-A428B3E5AC5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
