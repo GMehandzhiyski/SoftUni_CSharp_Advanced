@@ -107,6 +107,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OffroadChallenge", "01.O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FishingCompetition", "02.FishingCompetition\02.FishingCompetition.csproj", "{5C7D225E-2A01-4714-B352-C94F61ADE7A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MailClient", "03.MailClient\03.MailClient.csproj", "{2A39A36F-A719-4255-BC6E-0EDBC6A09C6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{5C7D225E-2A01-4714-B352-C94F61ADE7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7D225E-2A01-4714-B352-C94F61ADE7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7D225E-2A01-4714-B352-C94F61ADE7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A39A36F-A719-4255-BC6E-0EDBC6A09C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A39A36F-A719-4255-BC6E-0EDBC6A09C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A39A36F-A719-4255-BC6E-0EDBC6A09C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A39A36F-A719-4255-BC6E-0EDBC6A09C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -325,6 +331,7 @@ Global
 		{4E344F18-88FE-4DEF-8257-CF16C30129BA} = {52449E4E-6BFA-437F-9F15-B6C82B2AA0F7}
 		{BD661B57-53FD-46D5-9C57-858535E8B8F8} = {4E344F18-88FE-4DEF-8257-CF16C30129BA}
 		{5C7D225E-2A01-4714-B352-C94F61ADE7A9} = {4E344F18-88FE-4DEF-8257-CF16C30129BA}
+		{2A39A36F-A719-4255-BC6E-0EDBC6A09C6F} = {4E344F18-88FE-4DEF-8257-CF16C30129BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}

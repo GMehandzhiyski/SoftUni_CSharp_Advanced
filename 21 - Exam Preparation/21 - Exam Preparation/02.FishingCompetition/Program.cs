@@ -78,7 +78,7 @@ namespace _02.FishingCompetition
                     fishingArea[currRow, currCol] = '-';
                     fishingArea[playerRow, playerCol] = 'S';
 
-                   PrintFishingArea(fishingArea);
+                   //PrintFishingArea(fishingArea);
 
                 }
                 if (argumnets == "down")
@@ -112,7 +112,7 @@ namespace _02.FishingCompetition
                     fishingArea[currRow, currCol] = '-';
                     fishingArea[playerRow, playerCol] = 'S';
 
-                  PrintFishingArea(fishingArea);
+                  //PrintFishingArea(fishingArea);
                 }
 
 
@@ -144,7 +144,7 @@ namespace _02.FishingCompetition
                     fishingArea[currRow, currCol] = '-';
                     fishingArea[playerRow, playerCol] = 'S';
 
-                   // PrintFishingArea(fishingArea);
+                   //PrintFishingArea(fishingArea);
                 }
                 if (argumnets == "left")
                 {
@@ -177,7 +177,7 @@ namespace _02.FishingCompetition
                     fishingArea[currRow, currCol] = '-';
                     fishingArea[playerRow, playerCol] = 'S';
 
-                   PrintFishingArea(fishingArea);
+                   //PrintFishingArea(fishingArea);
                 }
             }
             if (least >= target)
@@ -190,7 +190,11 @@ namespace _02.FishingCompetition
                 Console.WriteLine($"You didn't catch enough fish and didn't reach the quota! You need {target - least} tons of fish more.");
                
             }
-            Console.WriteLine($"Amount of fish caught: {least} tons.");
+            if (least > 0)
+            {
+                Console.WriteLine($"Amount of fish caught: {least} tons.");
+            }
+            
             PrintFishingArea(fishingArea);
 
         }
