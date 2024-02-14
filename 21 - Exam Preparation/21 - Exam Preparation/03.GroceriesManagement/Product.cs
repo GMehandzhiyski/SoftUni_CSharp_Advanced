@@ -25,7 +25,7 @@
 
 		public override string ToString() 
 		{
-			return $"{Name}: {Price:F2}";
+			return $"{Name}: {Price:F2}$";
 		}
 
 

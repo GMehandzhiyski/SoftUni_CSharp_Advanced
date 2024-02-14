@@ -133,8 +133,8 @@ W--W
                     PrintBoard(board);
                     Environment.Exit(0);
                 }
-               Console.WriteLine();
-               PrintBoard(board);
+               //Console.WriteLine();
+              // PrintBoard(board);
             }
 
             Console.WriteLine($"End of the game. Total amount: {amount}$");

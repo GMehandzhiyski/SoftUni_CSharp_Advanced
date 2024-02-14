@@ -30,28 +30,28 @@
            Console.WriteLine(store.RemoveProduct("Grapes")); //True
 
             ////Try to delete not existing Product
-          //  Console.WriteLine(store.RemoveProduct("Pears")); //False
+            Console.WriteLine(store.RemoveProduct("Pears")); //False
 
             ////Try to add once again, if there is enough Capacity
-          // store.AddProduct(cherries);
+            store.AddProduct(cherries);
 
             ////Sell some products
-           // Console.WriteLine(store.SellProduct("Apples", 1.5)); //Apples = 1.80$
-           // Console.WriteLine(store.SellProduct("Bananas", 2.4)); //Banans = 3.60$
-           // Console.WriteLine(store.SellProduct("Grapes", 2)); //Product not found
-          //  Console.WriteLine(store.SellProduct("Apples", 2.5)); //Apples = 3.00$
-          //  Console.WriteLine(store.SellProduct("Watermelon", 15)); //Watermelon = 28.50$
-          //  Console.WriteLine(store.SellProduct("Cherries", 0.5)); //Cherries = 2.85$
+            Console.WriteLine(store.SellProduct("Apples", 1.5)); //Apples = 1.80$
+            Console.WriteLine(store.SellProduct("Bananas", 2.4)); //Banans = 3.60$
+            Console.WriteLine(store.SellProduct("Grapes", 2)); //Product not found
+            Console.WriteLine(store.SellProduct("Apples", 2.5)); //Apples = 3.00$
+            Console.WriteLine(store.SellProduct("Watermelon", 15)); //Watermelon = 28.50$
+            Console.WriteLine(store.SellProduct("Cherries", 0.5)); //Cherries = 2.85$
 
             ////Get the most expensive product
-          //  Console.WriteLine(store.GetMostExpensive()); //Cherries: 5.70$
+             Console.WriteLine(store.GetMostExpensive()); //Cherries: 5.70$
 
             ////Generate and display a cash report
-          //  Console.WriteLine(store.CashReport());
+            Console.WriteLine(store.CashReport());
             //// "Total Turnover: 39.75$"
 
             ////Display the price list
-           // Console.WriteLine(store.PriceList());
+            Console.WriteLine(store.PriceList());
             //// "Groceries Price List:
             //// Apples: 1.20$
             //// Oranges: 2.80$
