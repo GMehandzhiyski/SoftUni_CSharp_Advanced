@@ -1,6 +1,6 @@
 ﻿namespace _01.MonsterExtermination
 {
-    internal class Program
+   public class Program
     {
         static void Main(string[] args)
         {
@@ -15,44 +15,54 @@
 
             Queue<int> monstarArmor = new Queue<int>(monstarArmorInput);
             Stack<int> soldierImpact = new Stack<int>(soldierImpactInput);
+
             int killedMonsters = 0;
+
             while (monstarArmor.Any()
                    && soldierImpact.Any())
             {
                 int currMonsterArmor = monstarArmor.Dequeue();
                 int currSoldierImpact = soldierImpact.Pop();
-                //int originalStrike = currSoldierImpact;
+                int originalStrike = currSoldierImpact;
                 int nextSoldierImpact = 0;
+                int currSoldierImpactRemainder = 0;
+                int currMonsterArmorRemainder = 0;
 
-                if (currSoldierImpact >= currMonsterArmor)
+                if (currSoldierImpact >= currMonsterArmor
+                    && currSoldierImpact != 0)
                 {
-                    currMonsterArmor = monstarArmor.Dequeue();
-                    currSoldierImpact = currSoldierImpact - currMonsterArmor;
-                    if (currSoldierImpact > 0)
+                    currSoldierImpactRemainder = currSoldierImpact - currMonsterArmor;
+                    if (currSoldierImpactRemainder > 0)
                     {
                         if (soldierImpact.Any())
                         {
                             nextSoldierImpact = soldierImpact.Pop();
                         }
-                        soldierImpact.Push(currSoldierImpact + nextSoldierImpact);
+                        soldierImpact.Push(currSoldierImpactRemainder + nextSoldierImpact);
+                       
                     }
 
                     killedMonsters++;
                 }
                 if (currSoldierImpact < currMonsterArmor)
                 {
-                    currMonsterArmor = currMonsterArmor - currSoldierImpact;
-                    monstarArmor.Enqueue(currSoldierImpact);
+                    currMonsterArmorRemainder = currMonsterArmor - originalStrike;
+                    if (currMonsterArmorRemainder > 0)
+                    {
+                        monstarArmor.Enqueue(currMonsterArmorRemainder);
+                    }
+                    
                 }
             }
-            if (!monstarArmor.Any()
-                && soldierImpact.Any())
+            if (monstarArmor.Any()
+                && !soldierImpact.Any())
             {
-                Console.WriteLine("All monsters have been killed!");
+                
+                Console.WriteLine("The soldier has been defeated.");
             }
             else
             {
-                Console.WriteLine("The soldier has been defeated.");
+                Console.WriteLine("All monsters have been killed!");
             }
 
             Console.WriteLine($"Total monsters killed: {killedMonsters}");

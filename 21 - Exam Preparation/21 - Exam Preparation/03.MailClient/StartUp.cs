@@ -43,7 +43,7 @@
 
             //Archive mails and print count
             Console.WriteLine(mailbox.ArchiveInboxMessages()); //4
-            ;
+            
             //Send the rest of the mails
             mailbox.IncomingMail(mail7);
             mailbox.IncomingMail(mail8);
