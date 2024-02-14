@@ -105,6 +105,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam21October2023", "Exam21
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.OffroadChallenge", "01.OffroadChallenge\01.OffroadChallenge.csproj", "{BD661B57-53FD-46D5-9C57-858535E8B8F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.FishingCompetition", "02.FishingCompetition\02.FishingCompetition.csproj", "{5C7D225E-2A01-4714-B352-C94F61ADE7A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{BD661B57-53FD-46D5-9C57-858535E8B8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD661B57-53FD-46D5-9C57-858535E8B8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD661B57-53FD-46D5-9C57-858535E8B8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7D225E-2A01-4714-B352-C94F61ADE7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7D225E-2A01-4714-B352-C94F61ADE7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7D225E-2A01-4714-B352-C94F61ADE7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7D225E-2A01-4714-B352-C94F61ADE7A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,6 +324,7 @@ Global
 		{3B8660BC-65EF-4C8D-8B00-8A89076472AF} = {90E7BFD6-3D3B-4EF5-B646-A428B3E5AC5D}
 		{4E344F18-88FE-4DEF-8257-CF16C30129BA} = {52449E4E-6BFA-437F-9F15-B6C82B2AA0F7}
 		{BD661B57-53FD-46D5-9C57-858535E8B8F8} = {4E344F18-88FE-4DEF-8257-CF16C30129BA}
+		{5C7D225E-2A01-4714-B352-C94F61ADE7A9} = {4E344F18-88FE-4DEF-8257-CF16C30129BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}

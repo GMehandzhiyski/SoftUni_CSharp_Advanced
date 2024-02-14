@@ -23,6 +23,7 @@ namespace _01.OffroadChallenge
             Queue<int> consumption = new Queue<int>(inputConsumption);
             Queue<int> aumontFuel = new Queue<int>(inputAumontFuel);
             int altitudeCounter = 0;
+
             while (fuel.Any()
                     && consumption.Any())
             {
@@ -70,8 +71,6 @@ namespace _01.OffroadChallenge
                 }
 
             }
-
-
         }
     }
 }
