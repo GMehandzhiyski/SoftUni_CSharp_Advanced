@@ -103,7 +103,7 @@ namespace _01.TempleOfDoom
             if (challenges.Any())
             {
                 StringBuilder sb = new StringBuilder();
-                sb.Append("Substances: ");
+                sb.Append("Challenges: ");
                 foreach (var challenge in challenges)
                 {
                     sb.Append(challenge.ToString() + ", ");

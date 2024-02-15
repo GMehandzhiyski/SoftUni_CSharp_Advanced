@@ -69,7 +69,7 @@ namespace VendingSystem
 			sb.AppendLine($"Drinks available:");
            foreach (var drink in Drinks) 
 			{
-               sb.AppendLine(drink);
+             //  sb.AppendLine(drink);
             }
 			return sb.ToString().TrimEnd();
         }
