@@ -123,6 +123,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TempleOfDoom", "01.Templ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MouseInTheKitchen", "02.MouseInTheKitchen\02.MouseInTheKitchen.csproj", "{D95A40E5-04A3-4755-89A9-8F09B56199AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.AutomotiveRepairShop", "03.AutomotiveRepairShop\03.AutomotiveRepairShop.csproj", "{46FD81DF-BB9E-4F5D-82DC-6C5791877883}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -313,6 +315,10 @@ Global
 		{D95A40E5-04A3-4755-89A9-8F09B56199AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95A40E5-04A3-4755-89A9-8F09B56199AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95A40E5-04A3-4755-89A9-8F09B56199AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46FD81DF-BB9E-4F5D-82DC-6C5791877883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46FD81DF-BB9E-4F5D-82DC-6C5791877883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46FD81DF-BB9E-4F5D-82DC-6C5791877883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46FD81DF-BB9E-4F5D-82DC-6C5791877883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -373,6 +379,7 @@ Global
 		{E404CF19-C080-43BB-A9F1-956C70CC7173} = {52449E4E-6BFA-437F-9F15-B6C82B2AA0F7}
 		{6622AF21-9555-45F2-B26F-03CE854E1AD2} = {E404CF19-C080-43BB-A9F1-956C70CC7173}
 		{D95A40E5-04A3-4755-89A9-8F09B56199AA} = {E404CF19-C080-43BB-A9F1-956C70CC7173}
+		{46FD81DF-BB9E-4F5D-82DC-6C5791877883} = {E404CF19-C080-43BB-A9F1-956C70CC7173}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}

@@ -201,7 +201,7 @@ namespace _02.MouseInTheKitchen
                     {
                         playerRow = currRow;
                         playerCol = currCol;
-                        PrintField(field);
+                        
                     }
                     else if (field[nextRow, nextCol] == '*')
                     {
