@@ -40,6 +40,7 @@ namespace _02.DeliveryBoy
             int currCol = 0;
             int nextRow = 0;
             int nextCol = 0;
+            bool hetakePizza = false;
 
             while (true)
             {
@@ -67,13 +68,23 @@ namespace _02.DeliveryBoy
                     if (field[nextRow, nextCol] == 'P')
                     {
                         field[nextRow, nextCol] = 'R';
+                        hetakePizza = true;
+
                     }
-                    else if (field[nextRow, nextCol] == 'A')
+                    else if (field[nextRow, nextCol] == 'A'
+                             && hetakePizza)
                     {
                         field[nextRow, nextCol] = 'P';
-                        field[firstPlayerRow, firstPlayerCol] = ''
+                        field[firstPlayerRow, firstPlayerCol] = 'B';
                     }
-                    
+                    else if (field[nextRow, nextCol] == '-')
+                    {
+                        field[nextRow, nextCol] = '.';
+                    }
+                    else
+                    {
+                        continue;
+                    }
 
                 }
                 else if (token == "right")

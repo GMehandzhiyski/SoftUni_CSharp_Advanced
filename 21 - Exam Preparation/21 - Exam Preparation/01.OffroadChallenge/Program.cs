@@ -31,21 +31,26 @@ namespace _01.OffroadChallenge
                 int currConsumption = consumption.Dequeue();
                 int currAumont = aumontFuel.Dequeue();
                 int residue = currFuel - currConsumption;
+                bool isFault = false;
 
-
-                if (residue < currAumont)
+                if (residue >= currAumont)
                 {
-                    if (altitudeCounter == 0)
-                    {
-                        Console.WriteLine($"John did not reach: Altitude {1}");
-                        Console.WriteLine("John failed to reach the top. John didn't reach any altitude.");
-                        return;
-                    }
+                    altitudeCounter++;
+                    Console.WriteLine($"John has reached: Altitude {altitudeCounter}");
 
+                }
+
+                else if (residue < currAumont)
+                {
                     altitudeCounter++;
                     Console.WriteLine($"John did not reach: Altitude {altitudeCounter}");
+                    isFault = true;
+                }
 
 
+                if (altitudeCounter > 1
+                    && isFault)
+                {
                     StringBuilder sb = new StringBuilder();
                     Console.WriteLine("John failed to reach the top.");
                     sb.Append("Reached altitudes: ");
@@ -57,20 +62,15 @@ namespace _01.OffroadChallenge
 
                     return;
                 }
-                if (residue >= currAumont)
-                {
-                    altitudeCounter++;
-                    Console.WriteLine($"John has reached: Altitude {altitudeCounter}");
 
-                }
-
-                if (aumontFuel.Count == 0)
+                else if (altitudeCounter == 1
+                    && isFault)
                 {
-                    Console.WriteLine("John has reached all the altitudes and managed to reach the top!");
+                    Console.WriteLine("John failed to reach the top.\nJohn didn't reach any altitude.");
                     return;
                 }
-
             }
+            Console.WriteLine("John has reached all the altitudes and managed to reach the top!");
         }
     }
 }
