@@ -65,10 +65,10 @@ namespace MailClient
 		public string InboxView()
 		{
 			StringBuilder sb = new StringBuilder();
-			sb.Append("Inbox: \n");
+			sb.AppendLine("Inbox:");
 			foreach (Mail mail in Inbox)
 			{
-				sb.AppendLine(mail.ToString());
+				sb.AppendLine(mail.ToString().TrimEnd());
 			}
 
 			return sb.ToString().TrimEnd();

@@ -32,7 +32,8 @@
 
 		public override string ToString() 
 		{
-			return $"From: {Sender} / To: {Receiver}\nMessage: {Body}";
+			return $"From: {sender} / To: {receiver}\nMessage: { body}";
+           
         }
 
 

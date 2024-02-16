@@ -14,32 +14,32 @@
             Console.WriteLine(cloth1); //Product: dress with size 36, color red 
 
             //Add Cloth 
-           magazine.AddCloth(cloth1);
+            magazine.AddCloth(cloth1);
 
             //Remove Cloth 
-           Console.WriteLine(magazine.RemoveCloth("black")); //false 
+            Console.WriteLine(magazine.RemoveCloth("black")); //false 
 
-           // Cloth cloth2 = new Cloth("brown", 34, "t-shirt");
-           // Cloth cloth3 = new Cloth("blue", 32, "jeans");
+            Cloth cloth2 = new Cloth("brown", 34, "t-shirt");
+            Cloth cloth3 = new Cloth("blue", 32, "jeans");
 
             //Add Cloth 
-           // magazine.AddCloth(cloth2);
-            //magazine.AddCloth(cloth3);
+            magazine.AddCloth(cloth2);
+            magazine.AddCloth(cloth3);
 
             //Get smallest cloth 
-           //Cloth smallestCloth = magazine.GetSmallestCloth();
-           // Console.WriteLine(smallestCloth); //Product: jeans with size 32, color blue 
+            Cloth smallestCloth = magazine.GetSmallestCloth();
+            Console.WriteLine(smallestCloth); //Product: jeans with size 32, color blue 
 
             //Get Cloth 
-           // Cloth getCloth = magazine.GetCloth("brown"); //Product: t-shirt with size 34, color brown 
-            //Console.WriteLine(getCloth);
+            Cloth getCloth = magazine.GetCloth("brown"); //Product: t-shirt with size 34, color brown 
+            Console.WriteLine(getCloth);
 
 
-           // Console.WriteLine(magazine.Report());
+            Console.WriteLine(magazine.Report());
             //Zara magazine contains: 
             //Product: jeans with size 32, color blue 
             //Product: t-shirt with size 34, color brown 
-            //Product: dress with size 36, color red 
+            //Product: dress with size 36, color red  
         }
     }
 }
