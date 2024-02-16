@@ -95,8 +95,8 @@ Finish
                         tochedOpponets++;
                         if (tochedOpponets == 3)
                         {
-                            Console.WriteLine("Game over!");
-                            Console.WriteLine($"Touched opponents: {tochedOpponets} Moves made: {moves}");
+                            PrintResult(tochedOpponets, moves);
+                            return;
                         }
                     }
 
@@ -143,8 +143,8 @@ Finish
                         tochedOpponets++;
                         if (tochedOpponets == 3)
                         {
-                            Console.WriteLine("Game over!");
-                            Console.WriteLine($"Touched opponents: {tochedOpponets} Moves made: {moves}");
+                            PrintResult(tochedOpponets, moves);
+                            return;
                         }
                     }
 
@@ -192,8 +192,8 @@ Finish
                         tochedOpponets++;
                         if (tochedOpponets == 3)
                         {
-                            Console.WriteLine("Game over!");
-                            Console.WriteLine($"Touched opponents: {tochedOpponets} Moves made: {moves}");
+                            PrintResult(tochedOpponets, moves);
+                            return;
                         }
                     }
 
@@ -247,6 +247,7 @@ Finish
                     }
 
                     playerRow = nextRow;
+
                     playerCol = nextCol;
 
                     //PrintField(field);
@@ -262,6 +263,7 @@ Finish
         {
             Console.WriteLine("Game over!");
             Console.WriteLine($"Touched opponents: {tochedOpponets} Moves made: {moves}");
+           
         }
 
         private static bool CkeckCoordinate(char[,] field, int nextRow, int nextCol)
