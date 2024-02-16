@@ -106,7 +106,7 @@ namespace _01.ApocalypsePreparation
         private static void PrintMedi(Stack<int> medicaments)
         {
             StringBuilder   sb = new StringBuilder();
-           sb.Append("Textiles left: ");
+           sb.Append("Medicaments left: ");
             foreach (var medicament in medicaments)
             {
                 sb.Append($"{medicament}, ");
