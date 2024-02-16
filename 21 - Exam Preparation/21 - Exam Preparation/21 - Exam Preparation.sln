@@ -115,19 +115,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Monster Extermination",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.DeliveryBoy", "02.DeliveryBoy\02.DeliveryBoy.csproj", "{FA4D1E9F-D6C4-45BE-90D7-8268C95123C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.VendingSystem", "03.VendingSystem\03.VendingSystem.csproj", "{AAC8A192-11BB-4C26-8FAE-74421588E652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.VendingSystem", "03.VendingSystem\03.VendingSystem.csproj", "{AAC8A192-11BB-4C26-8FAE-74421588E652}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.17June2023", "04.17June2023", "{E404CF19-C080-43BB-A9F1-956C70CC7173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TempleOfDoom", "01.TempleOfDoom\01.TempleOfDoom.csproj", "{6622AF21-9555-45F2-B26F-03CE854E1AD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.TempleOfDoom", "01.TempleOfDoom\01.TempleOfDoom.csproj", "{6622AF21-9555-45F2-B26F-03CE854E1AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MouseInTheKitchen", "02.MouseInTheKitchen\02.MouseInTheKitchen.csproj", "{D95A40E5-04A3-4755-89A9-8F09B56199AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.MouseInTheKitchen", "02.MouseInTheKitchen\02.MouseInTheKitchen.csproj", "{D95A40E5-04A3-4755-89A9-8F09B56199AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.AutomotiveRepairShop", "03.AutomotiveRepairShop\03.AutomotiveRepairShop.csproj", "{46FD81DF-BB9E-4F5D-82DC-6C5791877883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.AutomotiveRepairShop", "03.AutomotiveRepairShop\03.AutomotiveRepairShop.csproj", "{46FD81DF-BB9E-4F5D-82DC-6C5791877883}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.12April2023", "05.12April2023", "{2E72CC06-67A9-433D-9894-C955242E914A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.RubberDuckDebugers", "01.RubberDuckDebugers\01.RubberDuckDebugers.csproj", "{C6C4D7C0-0B98-4010-B097-C5B104F5879C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.RubberDuckDebugers", "01.RubberDuckDebugers\01.RubberDuckDebugers.csproj", "{C6C4D7C0-0B98-4010-B097-C5B104F5879C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TheSquirrel", "02.TheSquirrel\02.TheSquirrel.csproj", "{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{C6C4D7C0-0B98-4010-B097-C5B104F5879C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6C4D7C0-0B98-4010-B097-C5B104F5879C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6C4D7C0-0B98-4010-B097-C5B104F5879C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -390,6 +396,7 @@ Global
 		{46FD81DF-BB9E-4F5D-82DC-6C5791877883} = {E404CF19-C080-43BB-A9F1-956C70CC7173}
 		{2E72CC06-67A9-433D-9894-C955242E914A} = {52449E4E-6BFA-437F-9F15-B6C82B2AA0F7}
 		{C6C4D7C0-0B98-4010-B097-C5B104F5879C} = {2E72CC06-67A9-433D-9894-C955242E914A}
+		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3} = {2E72CC06-67A9-433D-9894-C955242E914A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
