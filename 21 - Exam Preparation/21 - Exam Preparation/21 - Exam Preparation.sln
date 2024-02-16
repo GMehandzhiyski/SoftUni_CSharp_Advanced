@@ -131,6 +131,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.RubberDuckDebugers", "01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.TheSquirrel", "02.TheSquirrel\02.TheSquirrel.csproj", "{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ClothesMagazine", "03.ClothesMagazine\03.ClothesMagazine.csproj", "{6E4D3CD6-EAD7-4FBD-9D6B-74D6947C99AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4D3CD6-EAD7-4FBD-9D6B-74D6947C99AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4D3CD6-EAD7-4FBD-9D6B-74D6947C99AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4D3CD6-EAD7-4FBD-9D6B-74D6947C99AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4D3CD6-EAD7-4FBD-9D6B-74D6947C99AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -397,6 +403,7 @@ Global
 		{2E72CC06-67A9-433D-9894-C955242E914A} = {52449E4E-6BFA-437F-9F15-B6C82B2AA0F7}
 		{C6C4D7C0-0B98-4010-B097-C5B104F5879C} = {2E72CC06-67A9-433D-9894-C955242E914A}
 		{1106176A-BD7A-4D32-9CE9-A53651F5DEE3} = {2E72CC06-67A9-433D-9894-C955242E914A}
+		{6E4D3CD6-EAD7-4FBD-9D6B-74D6947C99AD} = {2E72CC06-67A9-433D-9894-C955242E914A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23CA0A17-0A83-48C5-A510-3041321027DB}
